@@ -2,16 +2,13 @@
 
 
 
-### Branch Name, Link & Live Demo
-
-
-
-| Modal | [Branch Link](https://github.com/Rasaf-Ibrahim/Bulma-with-Vue/tree/001) \| (Branch Name: 001) | [Live Demo](https://rasaf-ibrahim-repo3.netlify.app/) |
-| :---: | :----------------------------------------------------------: | :---------------------------------------------------: |
-|       |                                                              |                                                       |
-|       |                                                              |                                                       |
-|       |                                                              |                                                       |
-
+| Project Name |                 Branch Link \| (Branch Name)                 |                    Live Demo Link                     |
+| :----------: | :----------------------------------------------------------: | :---------------------------------------------------: |
+|    Navbar    | [Branch Link](https://github.com/Rasaf-Ibrahim/Bulma-with-Vue/tree/002) \| (002) | [Live Demo](https://rasaf-ibrahim-repo4.netlify.app/) |
+|    Modal     | [Branch Link](https://github.com/Rasaf-Ibrahim/Bulma-with-Vue/tree/001) \| (001) | [Live Demo](https://rasaf-ibrahim-repo3.netlify.app/) |
+|              |                                                              |                                                       |
+|              |                                                              |                                                       |
+|              |                                                              |                                                       |
 
 
 
