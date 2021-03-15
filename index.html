@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulma Modal</title>
+
+    <!-- Bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+
+    <!-- Vue CDN -->
+    <script src="https://unpkg.com/vue@3.0.0"></script>
+
+
+</head>
+
+<body>
+    <div id="app">
+
+
+        <button class="button  
+        has-text-white has-background-primary-dark
+        m-6" @click="modal">
+           Click me to see the Modal
+        </button>
+
+
+        <div class="modal" :class=" {'is-active': toggleModal } ">
+
+            <div class="modal-background"></div>
+
+            <div class="modal-content">
+
+                <div class="is-size-1 has-background-info-light has-text-info-dark
+                has-text-centered mr-6 ">
+                    Hi! I am your Modal! Have a nice day. Please close me now!
+                </div>
+
+            </div>
+
+
+            <button class="modal-close is-large" @click="modal">
+
+            </button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- JS -->
+    <script src="app.js"></script>
+
+</html>
