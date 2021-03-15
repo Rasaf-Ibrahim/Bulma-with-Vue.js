@@ -1,3 +1,5 @@
+## Modal
+
 ### What happens:
 
 - There is a button, if you click it, the modal  pops up. Let's call this button **'Start button'**.  
