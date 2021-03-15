@@ -6,11 +6,12 @@
 
 
 
-| Modal | [Branch Link](https://github.com/Rasaf-Ibrahim/Bulma-with-Vue/tree/001) \| (Branch Name: 001) | [Live Demo]([(https://rasaf-ibrahim-repo3.netlify.app/)) |
-| :---: | :----------------------------------------------------------: | :------------------------------------------------------: |
-|       |                                                              |                                                          |
-|       |                                                              |                                                          |
-|       |                                                              |                                                          |
+| Modal | [Branch Link](https://github.com/Rasaf-Ibrahim/Bulma-with-Vue/tree/001) \| (Branch Name: 001) | [Live Demo](https://rasaf-ibrahim-repo3.netlify.app/) |
+| :---: | :----------------------------------------------------------: | :---------------------------------------------------: |
+|       |                                                              |                                                       |
+|       |                                                              |                                                       |
+|       |                                                              |                                                       |
+
 
 
 
