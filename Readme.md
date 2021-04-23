@@ -1,15 +1,19 @@
-> ### "Main branch is empty but there are some other branches in this repository. Each branch has a different project."
+# bazla16day
 
+## Project setup
+```
+npm install
+```
 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-| Project Name |                 Branch Link \| (Branch Name)                 |                    Live Demo Link                     |
-| :----------: | :----------------------------------------------------------: | :---------------------------------------------------: |
-|    Navbar    | [Branch Link](https://github.com/Rasaf-Ibrahim/Bulma-with-Vue.js/tree/002) \| (002) | [Live Demo](https://rasaf-ibrahim-repo4.netlify.app/) |
-|    Modal     | [Branch Link](https://github.com/Rasaf-Ibrahim/Bulma-with-Vue.js/tree/001) \| (001) | [Live Demo](https://rasaf-ibrahim-repo3.netlify.app/) |
-|              |                                                              |                                                       |
-|              |                                                              |                                                       |
-|              |                                                              |                                                       |
+### Compiles and minifies for production
+```
+npm run build
+```
 
-
-
-
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
