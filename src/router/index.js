@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-
+import alert from '../views/alert/alert.vue'
 
 const routes = [
   {
@@ -9,7 +9,11 @@ const routes = [
     component: Home
   },
 
- 
+  {
+    path: '/alert',
+    name: 'alert',
+    component: alert
+  },
 
 ]
 
