@@ -13,6 +13,7 @@
 <!-- Modal Background -->
 
 <div v-if="showModal"
+     v-on:click.self="toggleModal()"
      class="overlay_r" >
 
 
