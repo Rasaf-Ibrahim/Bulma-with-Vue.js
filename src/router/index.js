@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import alert from '../views/alert/alert.vue'
+import modal from '../views/modal/modal.vue'
 
 const routes = [
   {
@@ -14,6 +15,16 @@ const routes = [
     name: 'alert',
     component: alert
   },
+
+
+  {
+    path: '/modal',
+    name: 'modal',
+    component: modal
+  },
+
+
+
 
 ]
 

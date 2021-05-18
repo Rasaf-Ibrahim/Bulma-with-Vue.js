@@ -2,6 +2,7 @@
   <div >
     This is a vue, tailwind Boilerplate with no style at all!
   </div>
+
 </template>
 
 <script>
@@ -10,6 +11,7 @@
   }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+
 
 </style>

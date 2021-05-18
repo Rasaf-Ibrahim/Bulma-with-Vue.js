@@ -58,6 +58,29 @@ module.exports = {
       outline: ['hover', 'active'],
       transitionDelay: ['hover', 'focus'],
       transformOrigin: ['hover', 'focus'],
+
+
+
+
+
+
+
+      // filters
+
+      filter: ['hover', 'focus'],
+      blur: ['hover', 'focus'],
+      brightness: ['hover', 'focus'],
+      contrast: ['hover', 'focus'],
+      dropShadow: ['hover', 'focus'],
+      grayscale: ['hover', 'focus'],
+      hueRotate: ['hover', 'focus'],
+      invert: ['hover', 'focus'],
+      saturate: ['hover', 'focus'],
+      sepia: ['hover', 'focus'],
+     
+
+
+
     },
 
   },

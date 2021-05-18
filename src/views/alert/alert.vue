@@ -18,6 +18,7 @@
 
 
     <!-- Close Icon -->
+    
     <div @click="close"
          class="col-span-6 justify-self-end ">
 
@@ -27,6 +28,7 @@
 
 
    <!-- ALert Message -->
+
    <div class="col-span-12">
 
         Bangladesh has never recorded an air temperature below 0 °C (32 °F), with a record low of 1.1 °C (34.0 °F) in the north west city of Dinajpur on 3 February 1905.
