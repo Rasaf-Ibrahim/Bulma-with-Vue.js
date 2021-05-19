@@ -61,6 +61,13 @@ module.exports = {
 
 
 
+      // active
+      
+      backgroundColor: ['active'],
+      scale: ['active'],
+
+
+
 
 
 

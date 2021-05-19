@@ -41,14 +41,14 @@
 .btn-scale-down_r{
     @apply
     transform
-    hover:scale-95;
+    active:scale-95;
     
 }
 
 .btn-scale-up_r{
     @apply
     transform
-    hover:scale-105;
+    active:scale-105;
     
 }
 
@@ -63,8 +63,8 @@
 }
 
 .btn-pink_r{
-    @apply bg-pink-500 text-white 
-    hover:bg-pink-700;
+    @apply bg-pink-700 text-white 
+    hover:bg-pink-900;
 }
 
 

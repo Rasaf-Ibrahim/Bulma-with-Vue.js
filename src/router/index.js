@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import alert from '../views/alert/alert.vue'
+import dropdown from '../views/dropdown/dropdown.vue'
 import modal from '../views/modal/modal.vue'
 
 const routes = [
@@ -21,6 +22,12 @@ const routes = [
     path: '/modal',
     name: 'modal',
     component: modal
+  },
+
+  {
+    path: '/dropdown',
+    name: 'dropdown',
+    component: dropdown
   },
 
 
