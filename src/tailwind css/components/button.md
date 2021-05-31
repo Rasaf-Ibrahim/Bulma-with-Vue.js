@@ -1,6 +1,14 @@
 ## Button
 
 
+
+### HTML Element
+
+- Generally, button is a inline element. So, use  `<span>` .  But You could also use `<div>` where you would add `inline-block` class to make the button a inline element.
+- On the other hand,  if you want your button to be a block element, use `<div>`.
+
+
+
 ### Mandatory Classes
 
 
@@ -43,5 +51,4 @@
 
 
 If you want to center the button both horizontally and vertically (position: fixed) , don't use scaling classes (`btn-scale-up` , `btn-scale-down`). Otherwise the button will not be centered perfectly. 
-
 

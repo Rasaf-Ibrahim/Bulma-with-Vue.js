@@ -2,12 +2,12 @@
 
 .btn_r{
     @apply 
-    inline-block
     cursor-pointer
     shadow hover:shadow-md
     outline-none focus:outline-none
     rounded
     py-2 px-4
+    text-center
     uppercase
     font-bold
     
@@ -80,14 +80,14 @@
 }
 
 
-..btn-indigo_r{
+.btn-indigo_r{
     @apply bg-indigo-500 text-white 
     hover:bg-indigo-700;
 }
 
 .btn-gray_r{
-    @apply bg-gray-500 text-white 
-    hover:bg-gray-700;
+    @apply bg-gray-700 text-white 
+    hover:bg-gray-900;
 
 }
 

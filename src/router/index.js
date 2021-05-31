@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import alert from '../views/alert/alert.vue'
 import dropdown from '../views/dropdown/dropdown.vue'
 import modal from '../views/modal/modal.vue'
+import typeEffect from '../views/typeEffect/typeEffect.vue'
 
 const routes = [
   {
@@ -28,6 +29,13 @@ const routes = [
     path: '/dropdown',
     name: 'dropdown',
     component: dropdown
+  },
+
+
+  {
+    path: '/typeEffect',
+    name: 'typeEffect',
+    component: typeEffect
   },
 
 
