@@ -1,74 +1,70 @@
 <template>
 
 
-<!-- Dropdown New (Trying to make) -->
-<span class="flex flex-col fixed ">
+<div class="p-4">
 
+<!-- Dropdown (on hover)-->
 
-  <!-- Button -->
+    <span class="group relative">
+      
+        <!-- Button < Dropdown -->
+        <span class="btn_r btn-pink-dark_r btn-small_r rounded">
 
-    <span @click="toggle">Open</span>
-   
-    
-  <!-- Content -->
-
-   <span v-show="show" class="flex flex-col bg-transparent 
-     ml-8 mt-2 py-4 
-     shadow-2xl 
-    relative z-50">
-
-       
-    <span class="text-center btn_r btn-blue_r font-bold border-t-2 hover:bg-red-200  ">Hello</span>
-    <span class="text-center font-bold border-t-2 hover:bg-red-200 ">Hi</span>
-    <span class="text-center font-bold border-t-2 hover:bg-red-200  ">Bye</span>
-
+              Dropdown
+  
+        <svg class="inline-block h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+  
     </span>
 
+    <!-- Content < Dropdown -->
 
-</span>
-
-
-<!-- 
-Dropdown (Old) 
-
- <span @click="toggle"
-      class="btn_r btn-sm_r btn-scale-down_r
-      ml-96">
-      Dropdown
-
-      <svg class="inline-block h-6 w-6" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z" clip-rule="evenodd" /></svg>
+    <div class="hidden group-hover:block 
+       text-gray-700
+       absolute mt-1 pt-1">
 
 
+     
 
- Dropdown 
-
-<div v-if="show" class="bg-transparent 
-     w-32 ml-8 mt-2 py-4 
-     shadow-2xl 
-    relative z-50 ">
-
-    <div class="text-center font-bold border-t-2 hover:bg-red-200  btn-scale-down_r">Hello</div>
-    <div class="text-center font-bold border-t-2 hover:bg-red-200  btn-scale-down_r">Hi</div>
-    <div class="text-center font-bold border-t-2 hover:bg-red-200  btn-small_r btn-scale-down_r">Bye</div>
-
-</div>
-
-</span>
- -->
+        <a  :href="martin"
+            class="block
+            bg-pink-200 hover:bg-pink-400 
+             py-2 px-4
+             cursor-pointer"> 
+             St. Martin's Island 
+         </a>
 
 
+         <a :href="kuakata"
+            class="block
+            bg-pink-200 hover:bg-pink-400 
+             py-2 px-4
+             cursor-pointer"> 
+             Kuakata
+         </a>
 
 
-<!-- Full Background Close Button (Overlay without color!) -->
-<div v-if="show"
-     @click.self="toggle"
-     class="fixed inset-0">
+         <a :href="coxsBazar"
+            class="block
+            bg-pink-200 hover:bg-pink-400 
+             py-2 px-4
+             cursor-pointer"> 
+             Cox's Bazar
+         </a>
+
+
+    </div> <!-- End: Content < Dropdown -->
+  </span> <!-- End: Dropdown -->
+
 </div>
   
 
 
 
+<!-- Footer -->
 
+<div class="mt-96">
+<Footer :link="link"/> 
+</div>
 
 
 
@@ -77,21 +73,30 @@ Dropdown (Old)
 </template>
 
 <script>
+
+import Footer from '../../components/Footer'
+
   export default {
+
+      components: {Footer},
 
     data() {
         return {
-        show: false
+        
+
+
+      // dropdown link
+      coxsBazar:"https://en.wikipedia.org/wiki/Coxs_Bazar",
+      kuakata:"https://en.wikipedia.org/wiki/Kuakata",
+      martin:"https://en.wikipedia.org/wiki/St._Martins_Island",
+
+      //  Footer link
+       link: "https://github.com/Rasaf-Ibrahim/Some-Designed-Components/blob/master/src/views/dropdown/dropdown.vue"
+                
        }
     },
 
-  
-    methods: {
-      toggle(){
-        this.show = !this.show;
-      }
-    }
-    
   }
 </script>
+
 

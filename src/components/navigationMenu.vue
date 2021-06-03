@@ -48,7 +48,7 @@
     <router-link 
                  :to="{name:'dropdown'}" 
                   class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
-                  Dropdown
+                  Dropdown (on hover)
     </router-link> 
 
 

@@ -57,10 +57,27 @@
 
 /* Colorful Background */
 
-.btn-red_r{
-    @apply bg-red-500 text-white 
+.btn-red-light_r{
+    @apply bg-red-300 text-gray-700
+    hover:bg-red-400;
+}
+
+.btn-red-dark_r{
+    @apply bg-red-600 text-gray-100 
     hover:bg-red-700;
 }
+
+
+.btn-pink-light_r{
+    @apply bg-pink-300 text-gray-700
+    hover:bg-pink-400;
+}
+
+.btn-pink-dark_r{
+    @apply bg-pink-600 text-gray-100 
+    hover:bg-pink-700;
+}
+
 
 .btn-pink_r{
     @apply bg-pink-700 text-white 
@@ -85,16 +102,27 @@
     hover:bg-indigo-700;
 }
 
-.btn-gray_r{
-    @apply bg-gray-700 text-white 
-    hover:bg-gray-900;
+.btn-gray-dark_r{
+    @apply bg-gray-600 text-gray-100 
+    hover:bg-gray-700;
 
 }
+
+
+.btn-gray-light_r{
+    @apply bg-gray-300 text-gray-700 
+    hover:bg-gray-400;
+
+}
+
+
+
 
 .btn-yellow_r{
     @apply bg-yellow-700 text-white 
     hover:bg-yellow-900;
 }
+
 
 
 

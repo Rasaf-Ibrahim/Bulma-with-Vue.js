@@ -1,6 +1,6 @@
 <template>
 
-<div class="bg-gray-900 text-white
+<div class="heading-5_r bg-gray-900 text-white
      text-center p-8">
 
     Check out the 

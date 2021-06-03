@@ -55,7 +55,9 @@ module.exports = {
 
     extend: {
 
+      // display(hidden, block, inline, flex, grid etc)
 
+      display: ['hover', 'group-hover', 'focus'],
 
 
       // backgroundColor
@@ -116,8 +118,6 @@ module.exports = {
       saturate: ['hover', 'focus'],
       sepia: ['hover', 'focus'],
      
-
-
 
     },
 

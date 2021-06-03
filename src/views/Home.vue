@@ -38,7 +38,7 @@
           a website or a web App.</div> 
 
      <div>
-          <span class="headingt-4_r text-blue-900 font-bold">
+          <span class="heading-4_r text-blue-900 font-bold">
                  Note:
           </span>
           
