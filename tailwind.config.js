@@ -54,21 +54,52 @@ module.exports = {
   variants: {
 
     extend: {
+
+
+
+
+      // backgroundColor
+
+      backgroundColor: ['active'],
+
+      // maxWidth
       maxWidth: ['hover', 'focus'],
+
+      // outline
       outline: ['hover', 'active'],
-      transitionDelay: ['hover', 'focus'],
+
+
+      // visited
+
+      textColor: ['active','visited'],
+
+
+      // transform, translate
+      
+      transform: ['hover', 'focus'],
+
       transformOrigin: ['hover', 'focus'],
 
+      translate: ['active', 'group-hover'],
+
+      rotate: ['active', 'group-hover'],
+
+      scale: ['active', 'group-hover'],
+
+      skew: ['active', 'group-hover'],
 
 
-      // active
+      // transition
       
-      backgroundColor: ['active'],
-      scale: ['active'],
+      transitionProperty: ['hover', 'focus'],
 
+      transitionDuration: ['hover', 'focus'],
 
+      transitionTimingFunction: ['hover', 'focus'],
 
+      transitionDelay: ['hover', 'focus'],
 
+      animation: ['hover', 'focus', 'motion-safe', 'motion-reduce'],
 
 
 
