@@ -39,8 +39,26 @@
     
         </div>
 
+
+         <!-- Title < Modal  < Modal Background  -->
+         <div class="col-span-12
+              heading-3_r font-regular-space
+              p-1">
+
+              The Varendra Research Museum 
+
+        </div>
+
+         <!-- Border Separator < Modal  < Modal Background  -->
+
+        <div class="col-span-12 
+             my-2
+             border-b border-gray-300"> 
+        </div>
+
         <!-- Content < Modal  < Modal Background  -->
          <div class="col-span-12
+              heading-4_r
               p-4 
               h-32 overflow-x-hidden overflow-y-auto">
 
@@ -62,7 +80,7 @@
 
         <!-- Button < Modal  < Modal Background  -->
         <div class="col-span-12 justify-self-center
-             btn_r btn-sm_r btn-yellow_r rounded btn-scale-down_r">
+             btn_r btn-sm_r btn-yellow-light_r rounded btn-scale-down_r">
 
          Subscribe!
          
