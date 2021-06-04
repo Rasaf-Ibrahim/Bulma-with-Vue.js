@@ -79,26 +79,35 @@
 }
 
 
-.btn-pink_r{
-    @apply bg-pink-700 text-white 
-    hover:bg-pink-900;
+.btn-green-light_r{
+    @apply bg-green-300 text-gray-700
+    hover:bg-green-400;
 }
 
-
-.btn-green_r{
-    @apply bg-green-500 text-white 
+.btn-green-dark_r{
+    @apply bg-green-600 text-gray-100 
     hover:bg-green-700;
 }
 
 
-.btn-blue_r{
-    @apply bg-blue-500 text-white 
+.btn-blue-light_r{
+    @apply bg-blue-300 text-gray-700
+    hover:bg-blue-400;
+}
+
+.btn-blue-dark_r{
+    @apply bg-blue-600 text-gray-100 
     hover:bg-blue-700;
 }
 
 
-.btn-indigo_r{
-    @apply bg-indigo-500 text-white 
+.btn-indigo-light_r{
+    @apply bg-indigo-300 text-gray-700
+    hover:bg-indigo-400;
+}
+
+.btn-indigo-dark_r{
+    @apply bg-indigo-600 text-gray-100 
     hover:bg-indigo-700;
 }
 
@@ -108,26 +117,26 @@
 
 }
 
-
 .btn-gray-light_r{
     @apply bg-gray-300 text-gray-700 
     hover:bg-gray-400;
 
 }
 
+.btn-yellow-light_r{
+    @apply bg-yellow-300 text-gray-700
+    hover:bg-yellow-400;
+}
 
-
-
-.btn-yellow_r{
-    @apply bg-yellow-700 text-white 
-    hover:bg-yellow-900;
+.btn-yellow-dark_r{
+    @apply bg-yellow-600 text-gray-100 
+    hover:bg-yellow-700;
 }
 
 
 
 
 /* Transparent Background, Colorful Border*/
-
 
 
 .btn-border-red_r{

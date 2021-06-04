@@ -25,30 +25,30 @@
 
      
 
-        <a  :href="martin"
+        <a  :href="dhaka"
             class="block
             bg-pink-200 hover:bg-pink-400 
              py-2 px-4
              cursor-pointer"> 
-             St. Martin's Island 
+             Dhaka
          </a>
 
 
-         <a :href="kuakata"
+         <a :href="chittagong"
             class="block
             bg-pink-200 hover:bg-pink-400 
              py-2 px-4
              cursor-pointer"> 
-             Kuakata
+             Chittagong
          </a>
 
 
-         <a :href="coxsBazar"
+         <a :href="sylhet"
             class="block
             bg-pink-200 hover:bg-pink-400 
              py-2 px-4
              cursor-pointer"> 
-             Cox's Bazar
+             Sylhet
          </a>
 
 
@@ -86,9 +86,9 @@ import Footer from '../../components/Footer'
 
 
       // dropdown link
-      coxsBazar:"https://en.wikipedia.org/wiki/Coxs_Bazar",
-      kuakata:"https://en.wikipedia.org/wiki/Kuakata",
-      martin:"https://en.wikipedia.org/wiki/St._Martins_Island",
+      dhaka:"https://en.wikipedia.org/wiki/Dhaka",
+      chittagong:"https://en.wikipedia.org/wiki/Chittagong",
+      sylhet:"https://en.wikipedia.org/wiki/Sylhet",
 
       //  Footer link
        link: "https://github.com/Rasaf-Ibrahim/Some-Designed-Components/blob/master/src/views/dropdown/dropdown.vue"

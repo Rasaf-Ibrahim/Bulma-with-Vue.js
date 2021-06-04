@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import alert from '../views/alert/alert.vue'
-import dropdown from '../views/dropdown/dropdown.vue'
+import dropdownHover from '../views/dropdown/dropdownHover.vue'
+import dropdownClick from '../views/dropdown/dropdownClick.vue'
 import modal from '../views/modal/modal.vue'
 import typeEffect from '../views/typeEffect/typeEffect.vue'
 
@@ -26,10 +27,17 @@ const routes = [
   },
 
   {
-    path: '/dropdown',
-    name: 'dropdown',
-    component: dropdown
+    path: '/dropdownHover',
+    name: 'dropdownHover',
+    component: dropdownHover
   },
+
+  {
+    path: '/dropdownClick',
+    name: 'dropdownClick',
+    component: dropdownClick
+  },
+  
 
 
   {
