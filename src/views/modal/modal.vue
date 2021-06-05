@@ -1,12 +1,23 @@
 <template>
+<div class="flex flex-col min-h-screen"> <!-- Wraper (Everything) ---> 
+<div> <!-- Wraper (Everything but footer)
+
+<! --  The above codes are related to footer. (keeping the footer at the bottom)-->
+
+
+<!-- ⬇️ ⤵️ ⬇️ This page's main code is staring from here ⬇️ ⤵️ ⬇️ -->
+
+<span @click="toggleModal()"
+      class="btn_r">
+     hello
+</span>
 
    
 <!-- Button to open the modal -->
-<div v-on:click="toggleModal()"
-    class="centerXY_r
-    btn_r btn-sm_r rounded btn-border-green_r">
+<span v-on:click="toggleModal()"
+    class="btn_r btn-sm_r rounded btn-border-green_r">
     Click me to open the Modal
-</div>
+</span>
 
 
 
@@ -95,19 +106,43 @@
 </div> <!-- End: Modal Background -->
 
 
-   
 
+
+<!-- ⬆️ ⤴️ ⬆️  This page's main code is ending here ⬆️ ⤴️ ⬆️ -->
+
+
+<!-- The following codes are related to footer -->
+
+
+</div> <!-- End: Wraper (Everything but footer) -->
+
+
+<!-- Footer -->
+<div class="mt-auto">
+<Footer :link="link"/> 
+</div>
+
+
+</div><!-- End: Wraper (Everything) -->
 </template>
 
 
 
 <script>
+import Footer from '../../components/Footer'
 
-export default {
+  export default {
+
+      components: {Footer},
+
  
     data() {
         return {
-        showModal: false
+        showModal: false,
+
+        //  Footer link
+        link: "https://github.com/Rasaf-Ibrahim/Some-Designed-Components/blob/master/src/views/modal/modal.vue"
+           
        }
     },
 

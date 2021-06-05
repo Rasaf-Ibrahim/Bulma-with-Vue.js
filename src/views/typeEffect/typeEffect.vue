@@ -1,11 +1,43 @@
 <template>
+<div class="flex flex-col min-h-screen"> <!-- Wraper (Everything) ---> 
+<div> <!-- Wraper (Everything but footer)
+
+<! --  The above codes are related to footer. (keeping the footer at the bottom)-->
+
+
+<!-- ⬇️ ⤵️ ⬇️ This page's main code is staring from here ⬇️ ⤵️ ⬇️ -->
+
+
+
   <div class="container">
     <h1>Coding is
       <span class="typed-text">{{ typeValue }}</span>
       <span class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
     </h1>
   </div>
+
+
+
+
+<!-- ⬆️ ⤴️ ⬆️  This page's main code is ending here ⬆️ ⤴️ ⬆️ -->
+
+
+<!-- The following codes are related to footer -->
+
+
+</div> <!-- End: Wraper (Everything but footer) -->
+
+
+<!-- Footer -->
+<div class="mt-auto">
+<Footer :link="link"/> 
+</div>
+
+
+</div><!-- End: Wraper (Everything) -->
 </template>
+
+
 
 <script>
 import { setTimeout } from 'timers';
@@ -19,7 +51,10 @@ import { setTimeout } from 'timers';
         erasingSpeed: 100,
         newTextDelay: 2000,
         typeArrayIndex: 0,
-        charIndex: 0
+        charIndex: 0,
+
+        //  Footer link
+       link: "https://github.com/Rasaf-Ibrahim/Some-Designed-Components/blob/master/src/views/typeEffect/typeEffect.vue"
       }
     },
     methods: {

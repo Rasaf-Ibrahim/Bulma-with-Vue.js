@@ -1,4 +1,12 @@
 <template>
+<div class="flex flex-col min-h-screen"> <!-- Wraper (Everything) ---> 
+<div> <!-- Wraper (Everything but footer)
+
+<! --  The above codes are related to footer. (keeping the footer at the bottom)-->
+
+
+<!-- ⬇️ ⤵️ ⬇️ This page's main code is staring from here ⬇️ ⤵️ ⬇️ -->
+
 
 <div v-if="open" 
      class="bg-red-500 text-white 
@@ -36,17 +44,46 @@
     </div>
 
 </div>
+
+
+
+<!-- ⬆️ ⤴️ ⬆️  This page's main code is ending here ⬆️ ⤴️ ⬆️ -->
+
+
+<!-- The following codes are related to footer -->
+
+
+</div> <!-- End: Wraper (Everything but footer) -->
+
+
+<!-- Footer -->
+<div class="mt-auto">
+<Footer :link="link"/> 
+</div>
+
+
+</div><!-- End: Wraper (Everything) -->
 </template>
 
 
 
+
 <script>
+import Footer from '../../components/Footer.vue'
 
 export default {
 
+    components: {Footer},
+
+
     data() {
         return {
-        open: true
+        open: true,
+
+
+         //  Footer link
+        link: "https://github.com/Rasaf-Ibrahim/Some-Designed-Components/blob/master/src/views/alert/alert.vue"
+                
         }
     },
 

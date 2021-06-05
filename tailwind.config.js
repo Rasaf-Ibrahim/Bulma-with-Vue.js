@@ -57,18 +57,23 @@ module.exports = {
 
       // display(hidden, block, inline, flex, grid etc)
 
-      display: ['hover', 'group-hover', 'focus'],
+      display: ['hover', 'group-hover', 'focus', 'active'],
 
 
       // backgroundColor
 
       backgroundColor: ['active'],
 
+
+      // fontWeight
+
+      fontWeight: ['hover', 'group-hover', 'focus', 'active'],
+
       // maxWidth
-      maxWidth: ['hover', 'focus'],
+      maxWidth: ['hover', 'group-hover', 'focus', 'active'],
 
       // outline
-      outline: ['hover', 'active'],
+      outline: ['hover', 'group-hover', 'focus', 'active'],
 
 
       // visited
@@ -78,9 +83,9 @@ module.exports = {
 
       // transform, translate
       
-      transform: ['hover', 'focus'],
+      transform: ['hover', 'group-hover', 'focus', 'active'],
 
-      transformOrigin: ['hover', 'focus'],
+      transformOrigin: ['hover', 'group-hover', 'focus', 'active'],
 
       translate: ['active', 'group-hover'],
 
@@ -93,30 +98,30 @@ module.exports = {
 
       // transition
       
-      transitionProperty: ['hover', 'focus'],
+      transitionProperty: ['hover', 'group-hover', 'focus', 'active'],
 
-      transitionDuration: ['hover', 'focus'],
+      transitionDuration: ['hover', 'group-hover', 'focus', 'active'],
 
-      transitionTimingFunction: ['hover', 'focus'],
+      transitionTimingFunction: ['hover', 'group-hover', 'focus', 'active'],
 
-      transitionDelay: ['hover', 'focus'],
+      transitionDelay: ['hover', 'group-hover', 'focus', 'active'],
 
-      animation: ['hover', 'focus', 'motion-safe', 'motion-reduce'],
+      animation: ['hover', 'group-hover', 'focus', 'active'],
 
 
 
       // filters
 
-      filter: ['hover', 'focus'],
-      blur: ['hover', 'focus'],
-      brightness: ['hover', 'focus'],
-      contrast: ['hover', 'focus'],
-      dropShadow: ['hover', 'focus'],
-      grayscale: ['hover', 'focus'],
-      hueRotate: ['hover', 'focus'],
-      invert: ['hover', 'focus'],
-      saturate: ['hover', 'focus'],
-      sepia: ['hover', 'focus'],
+      filter: ['hover', 'group-hover', 'focus', 'active'],
+      blur: ['hover', 'group-hover', 'focus', 'active'],
+      brightness: ['hover', 'group-hover', 'focus', 'active'],
+      contrast: ['hover', 'group-hover', 'focus', 'active'],
+      dropShadow: ['hover', 'group-hover', 'focus', 'active'],
+      grayscale: ['hover', 'group-hover', 'focus', 'active'],
+      hueRotate: ['hover', 'group-hover', 'focus', 'active'],
+      invert: ['hover', 'group-hover', 'focus', 'active'],
+      saturate: ['hover', 'group-hover', 'focus', 'active'],
+      sepia: ['hover', 'group-hover', 'focus', 'active'],
      
 
     },

@@ -1,4 +1,11 @@
 <template>
+<div class="flex flex-col min-h-screen"> <!-- Wraper (Everything) ---> 
+<div> <!-- Wraper (Everything but footer)
+
+<! --  The above codes are related to footer. (keeping the footer at the bottom)-->
+
+
+<!-- ⬇️ ⤵️ ⬇️ This page's main code is staring from here ⬇️ ⤵️ ⬇️ -->
 
 
 <div class="p-4">
@@ -56,21 +63,27 @@
   </span> <!-- End: Dropdown -->
 
 </div>
-  
 
+
+
+<!-- ⬆️ ⤴️ ⬆️  This page's main code is ending here ⬆️ ⤴️ ⬆️ -->
+
+
+<!-- The following codes are related to footer -->
+
+
+</div> <!-- End: Wraper (Everything but footer) -->
 
 
 <!-- Footer -->
-
-<div class="mt-96">
+<div class="mt-auto">
 <Footer :link="link"/> 
 </div>
 
 
-
-
-
+</div><!-- End: Wraper (Everything) -->
 </template>
+
 
 <script>
 
@@ -91,7 +104,7 @@ import Footer from '../../components/Footer'
       sylhet:"https://en.wikipedia.org/wiki/Sylhet",
 
       //  Footer link
-       link: "https://github.com/Rasaf-Ibrahim/Some-Designed-Components/blob/master/src/views/dropdown/dropdown.vue"
+       link: "https://github.com/Rasaf-Ibrahim/Some-Designed-Components/blob/master/src/views/dropdown/dropdownHover.vue"
                 
        }
     },
