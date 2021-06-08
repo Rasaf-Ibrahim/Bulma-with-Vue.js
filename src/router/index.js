@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import alert from '../views/alert/alert.vue'
-import dropdownHover from '../views/dropdown/dropdownHover.vue'
-import dropdownClick from '../views/dropdown/dropdownClick.vue'
+import AlertPage from '../views/AlertPage.vue'
+import DropdownPage from '../views/DropdownPage.vue'
 import modal from '../views/modal/modal.vue'
 import typeEffect from '../views/typeEffect/typeEffect.vue'
+import audio from '../views/audio/audio.vue'
+
 
 const routes = [
   {
@@ -15,8 +16,8 @@ const routes = [
 
   {
     path: '/alert',
-    name: 'alert',
-    component: alert
+    name: 'AlertPage',
+    component: AlertPage
   },
 
 
@@ -27,23 +28,22 @@ const routes = [
   },
 
   {
-    path: '/dropdownHover',
-    name: 'dropdownHover',
-    component: dropdownHover
+    path: '/dropdown',
+    name: 'DropdownPage',
+    component: DropdownPage
   },
 
-  {
-    path: '/dropdownClick',
-    name: 'dropdownClick',
-    component: dropdownClick
-  },
   
-
-
   {
     path: '/typeEffect',
     name: 'typeEffect',
     component: typeEffect
+  },
+
+  {
+    path: '/audio',
+    name: 'audio',
+    component: audio
   },
 
 

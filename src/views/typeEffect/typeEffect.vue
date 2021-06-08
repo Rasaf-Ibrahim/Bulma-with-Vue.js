@@ -1,20 +1,20 @@
 <template>
 <div class="flex flex-col min-h-screen"> <!-- Wraper (Everything) ---> 
-<div> <!-- Wraper (Everything but footer)
+<div> <!-- Wraper (Everything but footer) -->
 
-<! --  The above codes are related to footer. (keeping the footer at the bottom)-->
+<!--  The above codes are related to footer. (To keep the footer at the bottom)-->
 
 
 <!-- ⬇️ ⤵️ ⬇️ This page's main code is staring from here ⬇️ ⤵️ ⬇️ -->
 
 
 
-  <div class="container">
+  <main class="container">
     <h1>Coding is
       <span class="typed-text">{{ typeValue }}</span>
       <span class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
     </h1>
-  </div>
+  </main>
 
 
 
@@ -40,8 +40,13 @@
 
 
 <script>
+import Footer from '../../components/Footer'
+
 import { setTimeout } from 'timers';
   export default {
+
+    components: {Footer},
+    
     data: () => {
       return {
         typeValue: '',

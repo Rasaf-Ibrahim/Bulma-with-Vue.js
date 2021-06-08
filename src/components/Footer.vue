@@ -1,20 +1,38 @@
 <template>
 
-<div class="heading-5_r bg-gray-900 text-white
-     text-center p-8">
+<div class="bg-gray-900 text-white
+     text-center p-8
+     group">
 
-    Check out the 
+    <div class="h-5_r">
+        Check out the code of website on 
+    
+        <a :href="link" 
+            class="font-bold text-yellow-600 
+            group-hover:animate-pulse
+            cursor-pointer"
+            title="Click">
 
-    <span class="animate-pulse">code</span>
+           GitHub
+        </a>
+    
+       
+    </div>
 
-    of this   
 
-    <span class="font-bold text-yellow-300 hover:text-yellow-600
-          cursor-pointer">
-      
-          <a :href="link">page</a></span>
+    <div class="inline-block
+             h-6_r 
+             bg-gray-800 
+             mt-4 p-1">
+
+    &copy; No Copyright
+
+   </div>
+
 
 </div>
+
+
 
 
 </template>
@@ -23,10 +41,15 @@
 <script>
     export default {
 
-        props: ['link']
+        data() {
+            return {
+                link: 'https://github.com/Rasaf-Ibrahim/Some-Designed-Components'
+            }
+        },
         
     }
 </script>
+
 
 
 

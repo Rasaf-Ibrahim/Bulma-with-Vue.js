@@ -4,8 +4,9 @@
 
 ### HTML Element
 
-- Generally, button is a inline element. So, use  `<span>` .  But You could also use `<div>` where you would add `inline-block` class to make the button a inline element.
-- On the other hand,  if you want your button to be a block element, use `<div>`.
+- Use `<button>`, it's a inline element.  But if you want to have the button to be a block element,  use `block` and `w-full` class in   `<button>` element.  
+- Alternatively, as button is a inline element. you can use  `<span>` or you can also use ` <div> ` where you would add `inline-block` class to make the button a inline element. On the other hand,  if you want your button to be a block element, you can use `<div>`.
+- It's recommended to stick with `<button>` element as it will have better for accessibility and readability.
 
 
 

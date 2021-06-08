@@ -1,23 +1,21 @@
 <template>
 <div class="flex flex-col min-h-screen"> <!-- Wraper (Everything) ---> 
-<div> <!-- Wraper (Everything but footer)
+<div> <!-- Wraper (Everything but footer) -->
 
-<! --  The above codes are related to footer. (keeping the footer at the bottom)-->
+<!--  The above codes are related to footer. (To keep the footer at the bottom)-->
 
 
 <!-- ⬇️ ⤵️ ⬇️ This page's main code is staring from here ⬇️ ⤵️ ⬇️ -->
 
-<span @click="toggleModal()"
-      class="btn_r">
-     hello
-</span>
+
+<main class="p-9">
 
    
 <!-- Button to open the modal -->
-<span v-on:click="toggleModal()"
-    class="btn_r btn-sm_r rounded btn-border-green_r">
-    Click me to open the Modal
-</span>
+<button v-on:click="toggleModal()"
+    class="btn_r btn-sm_r rounded btn-green-light_r">
+    Modal
+</button>
 
 
 
@@ -34,8 +32,8 @@
          class="centerXY_r
          w-3/4 lg:w-1/2
          p-2
-       bg-gray-100
-         shadow-2xl
+       bg-green-400
+         shadow-2xl 
          grid gap-y-4"> 
 
 
@@ -106,6 +104,7 @@
 </div> <!-- End: Modal Background -->
 
 
+</main>
 
 
 <!-- ⬆️ ⤴️ ⬆️  This page's main code is ending here ⬆️ ⤴️ ⬆️ -->
@@ -118,9 +117,9 @@
 
 
 <!-- Footer -->
-<div class="mt-auto">
+<footer class="mt-auto">
 <Footer :link="link"/> 
-</div>
+</footer>
 
 
 </div><!-- End: Wraper (Everything) -->

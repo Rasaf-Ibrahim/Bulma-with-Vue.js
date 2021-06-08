@@ -2,9 +2,11 @@
 
 <!-- Button -->
   
-<div @click="toggle"
-      class="btn_r btn-sm_r btn-border-blue_r btn-scale-down_r
-             m-4">
+<button @click="toggle"
+      class="block w-full
+             btn_r btn-sm_r btn-border-blue_r btn-scale-down_r
+             m-4"
+      title="Menu">
         
       <div v-show="show">
 
@@ -22,13 +24,13 @@
 
       </div>  
     
-</div>
+</button>
 
 
 <!-- Navigation Menu -->
 
  <div  v-if="hide"
-       class="bg-gray-100 
+       class="bg-blue-50
        p-4 mb-4 
        flex flex-wrap">
 
@@ -39,23 +41,16 @@
     </router-link> 
 
 
-    <router-link :to="{name:'alert'}" 
+    <router-link :to="{name:'AlertPage'}" 
                   class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
                   Alert
     </router-link> 
 
 
     <router-link 
-                 :to="{name:'dropdownHover'}" 
+                 :to="{name:'DropdownPage'}" 
                   class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
-                  Dropdown (on hover)
-    </router-link> 
-
-
-    <router-link 
-                 :to="{name:'dropdownClick'}" 
-                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
-                  Dropdown (on click)
+                  Dropdown 
     </router-link> 
 
 
@@ -71,6 +66,14 @@
                   class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
                   Type Effect
     </router-link> 
+
+
+    <router-link 
+                 :to="{name:'audio'}" 
+                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  Audio
+    </router-link> 
+
 
      
 

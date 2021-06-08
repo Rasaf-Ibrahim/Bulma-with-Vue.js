@@ -1,0 +1,55 @@
+/* Main class */
+
+.btn_r{
+    @apply 
+    cursor-pointer
+    shadow hover:shadow-md
+    outline-none focus:outline-none
+    rounded
+    py-2 px-4
+    text-center
+    uppercase
+    font-bold
+    transition
+    ease-out
+    duration-300;
+}
+
+
+/* Button Size */
+
+.btn-sm_r{
+    @apply
+    text-xs md:text-sm xl:text-base;
+}
+
+.btn-md_r{
+    @apply
+    text-sm md:text-base xl:text-lg;
+}
+
+.btn-lg_r{
+    @apply
+    text-base md:text-lg xl:text-xl;
+}
+
+
+
+/* Scale up and down on hover */
+
+.btn-scale-down_r{
+    @apply
+    transform
+    active:scale-95;
+    
+}
+
+.btn-scale-up_r{
+    @apply
+    transform
+    active:scale-105;
+    
+}
+
+
+

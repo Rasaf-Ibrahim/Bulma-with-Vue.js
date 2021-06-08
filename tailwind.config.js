@@ -106,7 +106,7 @@ module.exports = {
 
       transitionDelay: ['hover', 'group-hover', 'focus', 'active'],
 
-      animation: ['hover', 'group-hover', 'focus', 'active'],
+      animation: ['hover', 'group-hover', 'focus', 'active','motion-safe', 'motion-reduce'],
 
 
 

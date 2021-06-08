@@ -1,6 +1,6 @@
 <template>
 
-  <navigationMenu/>
+  <NavigationMenu/>
   <router-view/>
   
 
@@ -8,14 +8,14 @@
 
 
 <script>
-import navigationMenu from './components/navigationMenu'
+import NavigationMenu from './components/NavigationMenu'
 
 
 
 
 
   export default {
-  components: { navigationMenu },
+  components: { NavigationMenu },
     
   }
 </script>
