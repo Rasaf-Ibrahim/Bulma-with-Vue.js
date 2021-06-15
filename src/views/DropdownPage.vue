@@ -8,21 +8,42 @@
 <!-- ⬇️ ⤵️ ⬇️ This page's main code is staring from here ⬇️ ⤵️ ⬇️ -->
 
 
-<main class="p-4
-      grid grid-cols-1 md:grid-cols-2 gap-x-20">
+<main class="p-8">
+
+<!-- Dropdown on Hover -->
+  
+   <div class="h-2_r text-center my-4 ">
+        Dropdown on Hover
+   </div>
+
+    <div class ="my-8">
+        <DropdownHover/>
+    </div>
+
+    <div class="mb-20">
+        <CodeLink :link="LinkDropdownHover"  :name="NameDropdownHover"/>
+    </div>
+
+<!-- Dropdown on Click -->
 
 
-<div class="cols-span-6">
-<DropdownHover/>
+   <div class="h-2_r text-center my-4 ">
+        Dropdown on Click
+   </div>
+  
+    <div class="my-8">
 
-<CodeLink :link="LinkDropdownHover"  :name="NameDropdownHover"/>
-</div>
+        <DropdownClick/>
 
-<div class="cols-span-6">
-<DropdownClick/>
+    </div>
 
-<CodeLink :link="LinkDropdownClick"  :name="NameDropdownClick"/>
-</div>
+    <div class="mb-20">
+
+        <CodeLink :link="LinkDropdownClick"  :name="NameDropdownClick"/>
+
+    </div>
+  
+
 </main>
 
 

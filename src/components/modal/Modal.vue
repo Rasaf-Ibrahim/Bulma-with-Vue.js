@@ -7,17 +7,16 @@
 </button>
 
 
+<!-- Full Background Close Button -->
 
-<!-- Modal Background -->
-
-<transition name="bounce">
 <div v-if="showModal"
      v-on:click.self="toggleModal()"
-     class="overlay_r" > </div>
-</transition>
+     class="overlay_r" > 
+</div>
+
 
     <!-- Modal -->
-    <transition name="bounce" > 
+ 
     <div v-if="showModal"
          class="centerXY_r
          w-3/4 lg:w-1/2
@@ -33,7 +32,10 @@
         <!-- Close Icon < Modal < Modal Background --> 
         <div v-on:click="toggleModal()"
              class="col-span-12 justify-self-end 
-                    text-red-600">
+                    text-red-600
+                    cursor-pointer"
+                    
+             title="Click to close">
     
             <svg class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
     
@@ -92,8 +94,6 @@
       
     </div> <!-- End: Modal-->
 
-
-  </transition>
 </template>
 
 
@@ -124,74 +124,9 @@
 
 <style scoped>
 
-.bounce-enter-active {
-  animation: bounce-in .5s;
-}
-.bounce-leave-active {
-  animation: bounce-out .5s;
-}
-
-@keyframes bounce-in {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes bounce-out {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
 
 
 
-/* slide-fade */
-.slide-fade-enter-active {
-  transition: all .3s ease;
-}
-
-.slide-fade-leave-active {
-  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-}
-
-.slide-fade-enter,.slide-fade-leave-active {
-  padding-left: 10px;
-  opacity: 0;
-}
-
-
-
-
-/* fadeIn */
-
-.fadeIn-enter-active {
-animation: fadeIn ease 3s;
-}
-
-.fadeIn-leave-active {
-animation: fadeIn ease 1s reverse;
-}
-
-
-@keyframes fadeIn{
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
 
 
 </style>

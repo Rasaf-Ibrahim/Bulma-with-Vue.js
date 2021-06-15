@@ -32,7 +32,7 @@
 <!-- Navigation Menu -->
 
  <div  v-if="hide"
-       class="bg-blue-50
+       class="bg-blue-100
        p-4 mb-4 
        flex flex-wrap">
 
@@ -62,19 +62,6 @@
                   Modal
     </router-link> 
 
-
-    <router-link 
-                 :to="{name:'typeEffect'}" 
-                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
-                  Type Effect
-    </router-link> 
-
-
-    <router-link 
-                 :to="{name:'audio'}" 
-                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
-                  Audio
-    </router-link> 
 
     <router-link 
                  :to="{name:'AnimationPage'}" 

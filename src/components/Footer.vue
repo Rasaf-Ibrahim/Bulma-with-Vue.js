@@ -20,14 +20,14 @@
     </div>
 
 
-    <div class="inline-block
+    <!-- <div class="inline-block
              h-6_r 
              bg-gray-800 
              mt-4 p-1">
 
     &copy; No Copyright
 
-   </div>
+   </div> -->
 
 
 </div>

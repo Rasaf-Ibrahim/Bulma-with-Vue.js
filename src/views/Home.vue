@@ -61,8 +61,8 @@
               
               <span class="h-5_r">
                     If you want to check a component, open the navigation menu and 
-                    navigate to that component's page. You will get the code link of that 
-                    component in the footer area. 
+                    navigate to that component's page. You will also get the code link of that 
+                    component there. 
               </span>    
           </div>
            
