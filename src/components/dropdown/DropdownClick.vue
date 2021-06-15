@@ -15,7 +15,7 @@
     </button>
 
     <!-- Content < Dropdown -->
-
+<transition>
     <div v-if="show"
          class="text-gray-700
          absolute mt-1 pt-1
@@ -48,6 +48,7 @@
 
 
     </div> <!-- End: Content < Dropdown -->
+    </transition>
 </span> <!-- End: Dropdown -->
 
 
@@ -90,3 +91,27 @@
 
   }
 </script>
+
+<style scoped>
+.v-enter-active {
+     animation: DropDownClick 0.3s ease-out;
+
+}
+
+.v-leave-active {
+     animation: DropDownClick 0.3s ease-out reverse;
+}
+
+@keyframes DropDownClick {
+
+     from {
+          opacity: 0;
+          transform: translateY(-50px) scale(0.9);
+     }
+
+     to {
+          opacity: 1;
+          transfrom: translateY(0) scale(1);
+     }
+}
+</style>

@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  purge: ['./index.html', './src/**/*.{html,js,ts,jsx,tsx,vue}'],
   darkMode: false, // or 'media' or 'class'
 
   theme: {
@@ -32,17 +32,39 @@ module.exports = {
       '75%': '75%',
       '90%': '90%', 
       '98%': '98%',
+
+
+      '12rem':'12rem',
+      '16rem':'16rem',
+      '20rem':'20rem',
+      '24rem':'24rem',
+      '28rem':'28rem',
+      '32rem':'32rem',
+      '36rem':'36rem',
+      '40rem':'40rem',
+      '44rem':'44rem',
+      '48rem':'48rem',
+      '52rem':'52rem',
+      '56rem':'56rem',
+      '60rem':'60rem',
+      '64rem':'64rem',
+      '68rem':'68rem',
+      '72rem':'72rem',
+      '76rem':'76rem',
+      '80rem':'80rem'
+
      },
 
     //  Min-Height
      minHeight: {
-      '6': '1.5rem',
-      '7': '1.75rem',
-      '8': '2rem',
+      '1.5rem': '1.5rem',
+      '1.75rem': '1.75rem',
+      '2rem': '2rem',
 
-      '1/4': '25%',
-      '1/2': '50%',
-      '3/4': '75%',
+
+      '25%': '25%',
+      '50%': '50%',
+      '75%': '75%',
       'full': '100%',
      }
 

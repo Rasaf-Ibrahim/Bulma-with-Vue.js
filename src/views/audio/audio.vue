@@ -16,7 +16,7 @@
 <audio  controls rasaf
         class= "block w-96 bg-gray-900 p-4 outline-none rounded-none"
       >
-  <source src='../../assests/audio/ant.mp3'>
+  <source src='../../assets/audio/ant.mp3'>
   Your browser does not support the audio element.
 </audio>
 
@@ -27,7 +27,7 @@
 <div>Audio with no download option</div>
 
 <audio   controls controlsList="nodownload">
-  <source src='../../assests/audio/ant.mp3'>
+  <source src='../../assets/audio/ant.mp3'>
   Your browser does not support the audio element.
 </audio>
 

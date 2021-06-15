@@ -5,7 +5,7 @@
      group">
 
     <div class="h-5_r">
-        Check out the code of website on 
+        Check out the code of the website on 
     
         <a :href="link" 
             class="font-bold text-yellow-600 

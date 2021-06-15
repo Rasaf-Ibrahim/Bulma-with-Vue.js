@@ -2,9 +2,12 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import AlertPage from '../views/AlertPage.vue'
 import DropdownPage from '../views/DropdownPage.vue'
-import modal from '../views/modal/modal.vue'
+import ModalPage from '../views/ModalPage.vue'
 import typeEffect from '../views/typeEffect/typeEffect.vue'
 import audio from '../views/audio/audio.vue'
+import AnimationPage from '../views/AnimationPage.vue'
+import CardPage from '../views/CardPage.vue'
+
 
 
 const routes = [
@@ -14,6 +17,7 @@ const routes = [
     component: Home
   },
 
+ 
   {
     path: '/alert',
     name: 'AlertPage',
@@ -23,8 +27,8 @@ const routes = [
 
   {
     path: '/modal',
-    name: 'modal',
-    component: modal
+    name: 'ModalPage',
+    component: ModalPage
   },
 
   {
@@ -44,6 +48,18 @@ const routes = [
     path: '/audio',
     name: 'audio',
     component: audio
+  },
+
+  {
+    path: '/animation',
+    name: 'AnimationPage',
+    component: AnimationPage
+  },
+
+  {
+    path: '/card',
+    name: 'CardPage',
+    component: CardPage
   },
 
 

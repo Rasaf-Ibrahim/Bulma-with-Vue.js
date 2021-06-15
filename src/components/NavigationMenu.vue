@@ -1,31 +1,33 @@
 <template>
 
 <!-- Button -->
-  
-<button @click="toggle"
-      class="block w-full
-             btn_r btn-sm_r btn-border-blue_r btn-scale-down_r
-             m-4"
-      title="Menu">
+<div class="flex justify-center">
+
+    <button @click="toggle"
+          class="block w-full m-4
+                 btn_r btn-sm_r btn-border-blue_r btn-scale-down_r"
+    
+          title="Menu">
+            
+          <div v-show="show">
+    
+              <svg class="inline-block h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" /></svg>
+               
+               Navigation Menu
+    
+          </div>
         
-      <div v-show="show">
-
-          <svg class="inline-block h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" /></svg>
-           
-           Navigation Menu
-
-      </div>
+          <div v-show="hide">
     
-      <div v-show="hide">
-
-          <svg  class="inline-block h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" /></svg>
-
-           Navigation Menu
-
-      </div>  
+              <svg  class="inline-block h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" /></svg>
     
-</button>
+               Navigation Menu
+    
+          </div>  
+        
+    </button>
 
+</div> <!-- End: Button -->
 
 <!-- Navigation Menu -->
 
@@ -55,7 +57,7 @@
 
 
     <router-link 
-                 :to="{name:'modal'}" 
+                 :to="{name:'ModalPage'}" 
                   class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
                   Modal
     </router-link> 
@@ -72,6 +74,18 @@
                  :to="{name:'audio'}" 
                   class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
                   Audio
+    </router-link> 
+
+    <router-link 
+                 :to="{name:'AnimationPage'}" 
+                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  Animation
+    </router-link> 
+
+     <router-link 
+                 :to="{name:'CardPage'}" 
+                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  Card
     </router-link> 
 
 

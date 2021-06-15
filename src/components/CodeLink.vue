@@ -1,7 +1,8 @@
 <template>
 
 
-<div class="bg-gradient-to-r from-pink-200 to-pink-50  text-gray-800 
+<div class="bg-gradient-to-r from-purple-50 via-pink-200 to-red-50    
+   text-gray-800 
      max-w-90% md:max-w-75% m-auto text-center p-4
      rounded-xl">
 
