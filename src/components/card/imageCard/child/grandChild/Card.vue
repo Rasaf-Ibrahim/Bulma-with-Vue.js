@@ -6,13 +6,13 @@
     <!-- image < card -->
     <img class="card-image-1_r" 
 
-         :src="require(`@/assets/photo/tourist-destination/${fileName}`)"
+        :src="fileLink"
 
          alt="tourist-destination">
 
 
     <!-- caption > card -->
-    <div class="h-5_r font-bold
+    <div class="font-bold
           p-4 text-center">
 
         <a :href="siteLink">
@@ -34,7 +34,7 @@
 <script>
     export default {
 
-        props: ['fileName', 'caption', 'siteLink']
+        props: ['fileLink', 'caption', 'siteLink']
         
     }
 </script>

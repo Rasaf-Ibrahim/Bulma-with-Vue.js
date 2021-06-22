@@ -5,7 +5,7 @@
 <span class="group relative">
       
         <!-- Button < Dropdown -->
-    <button class="btn_r btn-pink-dark_r btn-small_r rounded">
+    <button class="btn_r btn-pink-dark_r btn-md_r rounded">
 
             Dropdown
   
@@ -16,7 +16,7 @@
     <!-- Content < Dropdown -->
 
     <div class="hidden group-hover:block 
-       text-gray-700
+       text-gray-700 p_r
        absolute mt-1 pt-1">
 
 

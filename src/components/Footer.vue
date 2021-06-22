@@ -4,7 +4,7 @@
      text-center p-8
      group">
 
-    <div class="h-5_r">
+    <div class="p_r">
         Check out the code of the website on 
     
         <a :href="link" 

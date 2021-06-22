@@ -8,26 +8,26 @@
 
         
         <Card
-            fileName="ratargul.jpg"
+            fileLink="https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/master/src/assets/photo/tourist-destination/ratargul.jpg"
             caption="Ratargul Swamp Forest"
             siteLink="https://en.wikipedia.org/wiki/Ratargul_Swamp_Forest"
         />
 
 
         <Card
-            fileName="jaflong.jpg"
+            fileLink="https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/master/src/assets/photo/tourist-destination/jaflong.jpg"
             caption="Jaflong"
             siteLink="https://en.wikipedia.org/wiki/Jaflong"
         />
 
          <Card
-            fileName="tanguar.jpg"
+            fileLink="https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/master/src/assets/photo/tourist-destination/tanguar.jpg"
             caption="Tanguar Haor"
             siteLink="https://en.wikipedia.org/wiki/Tanguar_Haor"
         />
 
         <Card
-            fileName="rema-kalenga.jpg"
+            fileLink="https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/master/src/assets/photo/tourist-destination/rema-kalenga.jpg"
             caption="Rema-Kalenga Wildlife Sanctuary"
             siteLink="https://en.wikipedia.org/wiki/Rema-Kalenga_Wildlife_Sanctuary"
         />
@@ -45,6 +45,9 @@
 <script>
 
 import Card from './grandChild/Card.vue'
+
+
+
 
     export default {
 

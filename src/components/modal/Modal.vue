@@ -2,7 +2,7 @@
 
 <!-- Button to open the modal -->
 <button v-on:click="toggleModal()"
-    class="btn_r btn-sm_r rounded btn-green-light_r">
+    class="btn_r  btn-md_r rounded btn-green-light_r">
     Modal
 </button>
 

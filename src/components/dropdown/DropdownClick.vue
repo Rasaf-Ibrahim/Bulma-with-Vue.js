@@ -6,7 +6,7 @@
       
     <!-- Button < Dropdown -->
     <button @click="toggle"
-            class="btn_r btn-yellow-dark_r btn-small_r rounded"
+            class="btn_r btn-yellow-dark_r btn-md_r rounded"
             title="Click">
 
             Dropdown

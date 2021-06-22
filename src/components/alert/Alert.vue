@@ -1,7 +1,7 @@
 <template>
 
 <div v-if="open" 
-     class="bg-red-500 text-white 
+     class="bg-red-500 text-white p_r
            max-w-98% mx-auto 
            mb-4 px-6 py-4  
            rounded-xl

@@ -5,7 +5,7 @@
 
     <button @click="toggle"
           class="block w-full m-4
-                 btn_r btn-sm_r btn-border-blue_r btn-scale-down_r"
+                 btn_r btn-md_r btn-border-blue_r btn-scale-down_r"
     
           title="Menu">
             
@@ -73,6 +73,12 @@
                  :to="{name:'CardPage'}" 
                   class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
                   Card
+    </router-link> 
+
+    <router-link 
+                 :to="{name:'ContactPage'}" 
+                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  Contact
     </router-link> 
 
 

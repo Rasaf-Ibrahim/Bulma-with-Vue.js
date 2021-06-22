@@ -30,7 +30,7 @@ Multiple Image Cards
 
 <script>
 import Cards from './child/Cards.vue'
-import CodeLink from '../../CodeLink'
+import CodeLink from '../../CodeLink.vue'
     export default {
 
         components:{Cards, CodeLink}

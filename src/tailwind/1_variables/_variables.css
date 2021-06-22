@@ -1,9 +1,0 @@
-/* Change the following file's CSS style according to your project's need and use them like you use variables.
-
- Stay extra careful about the 'htmlElement.css' file as this file's styles will  automatically be added on the site. */
-
-@import './bgColor.css';
-
-@import './fontColor.css';
-
-@import './gradientColor.css';

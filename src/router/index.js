@@ -1,14 +1,13 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import AlertPage from '../views/AlertPage.vue'
-import DropdownPage from '../views/DropdownPage.vue'
-import ModalPage from '../views/ModalPage.vue'
-import typeEffect from '../views/typeEffect/typeEffect.vue'
-import audio from '../views/audio/audio.vue'
-import AnimationPage from '../views/AnimationPage.vue'
-import CardPage from '../views/CardPage.vue'
+import { createRouter, createWebHistory} from 'vue-router'
 
-
+import Home from '../pages/Home.vue'
+import AlertPage from '../pages/AlertPage.vue'
+import DropdownPage from '../pages/DropdownPage.vue'
+import ModalPage from '../pages/ModalPage.vue'
+import audio from '../pages/audio/audio.vue'
+import AnimationPage from '../pages/AnimationPage.vue'
+import CardPage from '../pages/CardPage.vue'
+import ContactPage from '../pages/ContactPage.vue'
 
 const routes = [
   {
@@ -37,12 +36,6 @@ const routes = [
     component: DropdownPage
   },
 
-  
-  {
-    path: '/typeEffect',
-    name: 'typeEffect',
-    component: typeEffect
-  },
 
   {
     path: '/audio',
@@ -62,14 +55,17 @@ const routes = [
     component: CardPage
   },
 
+  {
+    path: '/contact',
+    name: 'ContactPage',
+    component: ContactPage
+  },
 
-
-
-]
+];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+  history: createWebHistory(),
+  routes,
+});
 
-export default router
+export default router;

@@ -6,7 +6,7 @@
      max-w-90% md:max-w-75% m-auto text-center p-4
      rounded-xl">
 
-    <div class="h-5_r">
+    <div class="p_r">
         Check out the code of
     
         <a :href="link" 

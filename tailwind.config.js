@@ -6,11 +6,31 @@ module.exports = {
 
     extend: {
 
+      
+// Breakpoints
+
+  screens: {
+    's-md': '688px',
+    
+    's-lg': '1024px',
+    
+    's-xl': '1360px',
+
+    's-2xl': '1696px',
+
+
+    //  (320x2)+(16x3) = 688px
+    //  (320x3)+(16x4) = 1024px
+    //  (320x4)+(16x5) = 1360px
+    //  (320x5)+(16x6) = 1696px
+
+  },
+
 
 
   // Font-Family
   fontFamily: {
-    'regular': ['Roboto', 'sans-serif'],
+    'regular': ['Lato', 'sans-serif'],
     'regular-space': ['Roboto Mono', 'monospace'],
     'cursive-1': ['Lobster Two', 'cursive'],
     'cursive-2': ['Kaushan Script', 'cursive'],
@@ -18,9 +38,13 @@ module.exports = {
     'cursive-4': ['Train One', 'cursive'],
     'handwriting': ['Indie Flower', 'cursive'],
     'bangla-cursive': ['Atma', 'cursive'],
-    // Use 'Roboto' to write any language's regular writing.
+    // Use 'Lato' to write any language's regular writing.
     // 'lobster-two' in italic format looks better.  
     },
+
+
+
+
 
 
     // Max-width
@@ -152,4 +176,3 @@ module.exports = {
 
   plugins: [],
 }
-

@@ -2,13 +2,13 @@
 
   <NavigationMenu/>
   <router-view/>
-  
+
 
 </template>
 
 
 <script>
-import NavigationMenu from './components/NavigationMenu'
+import NavigationMenu from './components/NavigationMenu.vue'
 
 
 

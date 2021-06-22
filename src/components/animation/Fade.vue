@@ -1,7 +1,7 @@
 <template>
 
 <button @click="toggle"
-        class="btn_r btn-small_r rounded btn-green-light_r">
+        class="btn_r btn-md_r rounded btn-green-light_r">
 
    <span v-show="show">Fade In</span>
    <span v-show="hide">Fade Out</span>
