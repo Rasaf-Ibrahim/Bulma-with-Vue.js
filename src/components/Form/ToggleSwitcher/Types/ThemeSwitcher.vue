@@ -1,13 +1,22 @@
 <template>
 
 
-   <div>
-        <label  class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-        </label>
-   </div>
+<!-- Rectangular switch -->
+<span>
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider"></span>
+    </label>
+</span>
 
+
+<!-- Rounded switch -->
+<span class="ml-8">
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider round"></span>
+    </label>
+</span>
     
 
  
@@ -35,7 +44,8 @@
 
 .slider {
   position: absolute;
-  background-color: #ccc;
+  background-color: hsl(150,50%,20%);
+  // This background color should be the dark surface color. 
   cursor: pointer;
   transition: .4s;
   bottom: 0;
@@ -52,19 +62,22 @@
   bottom: 4px;
   left: 4px;
   transition: .4s;
-  background: white url('https://i.ibb.co/FxzBYR9/night.png');
+  background: white url('https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/2e78e1146bad789135f9ce657d5a9fae52816e8f/src/assets/svg/sun.svg');
   background-repeat: no-repeat;
   background-position: center;
 
 }
 
 input:checked + .slider {
-  background-color: teal;
+  background-color:hsl(150,50%,70%);;
+  // This background color should be the dark surface color.  
 }
 
 input:checked + .slider:before {
   transform: translateX(26px);
-  background: white url('https://i.ibb.co/7JfqXxB/sunny.png');
+
+  background: #121212 url('https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/2e78e1146bad789135f9ce657d5a9fae52816e8f/src/assets/svg/moon.svg');
+
   background-position: center;
   background-repeat: no-repeat;
 

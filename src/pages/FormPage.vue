@@ -10,6 +10,8 @@
 
 <main class="m-8">
 
+<div class="h3_r mb-8">Toggle Switcher</div>
+
     <ToggleSwithcher/>
 
  
