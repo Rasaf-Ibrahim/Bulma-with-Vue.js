@@ -81,6 +81,11 @@
                   Contact
     </router-link> 
 
+    <router-link :to="{name:'FormPage'}" 
+                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  Form
+    </router-link> 
+
 
      
 

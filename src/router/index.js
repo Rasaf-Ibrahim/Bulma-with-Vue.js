@@ -8,6 +8,8 @@ import audio from '../pages/audio/audio.vue'
 import AnimationPage from '../pages/AnimationPage.vue'
 import CardPage from '../pages/CardPage.vue'
 import ContactPage from '../pages/ContactPage.vue'
+import FormPage from '../pages/FormPage.vue'
+
 
 const routes = [
   {
@@ -60,6 +62,12 @@ const routes = [
     name: 'ContactPage',
     component: ContactPage
   },
+
+  {
+    path: '/form',
+    name: 'FormPage',
+    component: FormPage
+  }
 
 ];
 
