@@ -62,7 +62,9 @@
   bottom: 4px;
   left: 4px;
   transition: .4s;
-  background: white url('https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/2e78e1146bad789135f9ce657d5a9fae52816e8f/src/assets/svg/sun.svg');
+
+  background: hsl(0, 0%, 90%) url('https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/2e78e1146bad789135f9ce657d5a9fae52816e8f/src/assets/svg/sun.svg');
+  
   background-repeat: no-repeat;
   background-position: center;
 
@@ -76,8 +78,9 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px);
 
-  background: #121212 url('https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/2e78e1146bad789135f9ce657d5a9fae52816e8f/src/assets/svg/moon.svg');
+  background: hsl(0, 0%, 15%) url('https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/5753262e46b864f3627f2d36fb58c1a98230022e/src/assets/svg/moon.svg');
 
+  
   background-position: center;
   background-repeat: no-repeat;
 
