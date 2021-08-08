@@ -3,13 +3,6 @@
 
 
 
-
-
-
-/* variables */
-@import './1_variables/_variables.scss';
-
-
 /* components */
 @import './2_components/_components.scss';
 
@@ -22,6 +15,10 @@
 @import './4_old/_old.scss';
 
 
+/* Website Specific */
+@import './websiteSpecifc/websiteSpecific';
+
+
 
 /* tailwind css */
 @tailwind base;
@@ -31,8 +28,9 @@
 
 
 
+/* Theme */
 
-
+@import './1_theme/theme.scss';
 
 
 

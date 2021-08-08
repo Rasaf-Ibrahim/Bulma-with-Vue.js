@@ -2,7 +2,7 @@
 
 <!-- Button to open the modal -->
 <button v-on:click="toggleModal()"
-    class="btn_r  btn-md_r rounded btn-green-light_r">
+    class="-btn  -btn-md rounded -btn-color-t1">
     Modal
 </button>
 
@@ -11,17 +11,17 @@
 
 <div v-if="showModal"
      v-on:click.self="toggleModal()"
-     class="overlay_r" > 
+     class="-overlay" > 
 </div>
 
 
     <!-- Modal -->
  
     <div v-if="showModal"
-         class="centerXY_r
+         class="-centerXY
          w-3/4 lg:w-1/2
          p-2
-       bg-green-400
+         bg-blue-a1 text-l2-a1
          shadow-2xl 
          grid gap-y-4
          "> 
@@ -32,7 +32,7 @@
         <!-- Close Icon < Modal < Modal Background --> 
         <div v-on:click="toggleModal()"
              class="col-span-12 justify-self-end 
-                    text-red-600
+                    text-red-a1
                     cursor-pointer"
                     
              title="Click to close">
@@ -44,7 +44,7 @@
 
          <!-- Title < Modal  < Modal Background  -->
          <div class="col-span-12
-              heading-3_r font-regular-space
+              -h4 font-regular-space
               p-1">
 
               The Varendra Research Museum 
@@ -55,12 +55,12 @@
 
         <div class="col-span-12 
              my-2
-             border-b border-gray-300"> 
+             border-b border-gray-300 dark:border-gray-500"> 
         </div>
 
         <!-- Content < Modal  < Modal Background  -->
          <div class="col-span-12
-              heading-4_r
+              -p
               p-4 
               h-32 overflow-x-hidden overflow-y-auto">
 
@@ -73,7 +73,7 @@
 
         <div class="col-span-12 
              my-2
-             border-b border-gray-300"> 
+             border-b border-gray-300 dark:border-gray-500"> 
         </div>
 
 
@@ -82,7 +82,7 @@
 
         <!-- Button < Modal  < Modal Background  -->
         <div class="col-span-12 justify-self-center
-             btn_r btn-sm_r btn-yellow-light_r rounded btn-scale-down_r">
+             -btn -btn-sm -btn-color-t1 rounded -btn-scale-down">
 
          Subscribe!
          

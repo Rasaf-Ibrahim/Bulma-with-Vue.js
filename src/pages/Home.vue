@@ -14,7 +14,7 @@
 
 
     <!-- Illustratoin -->
-    <div class="bg-gray-100 
+    <div class="bg-s-t1a1
          p-8 my-4
          flex justify-center">
     
@@ -34,7 +34,7 @@
     
     
         <!-- Title < Text-Card -->
-        <div class="h3_r font-regular-space font-medium
+        <div class="-h3 font-regular-space font-medium
              mb-4
              flex justify-center items-start">
     
@@ -49,17 +49,17 @@
     
           <!-- Content < Text-Card -->
        
-         <div class="p_r mb-4">
+         <div class="-p mb-4">
               This site has some building blocks (components) which can be used in 
               a website or a web App.
          </div> 
     
          <div>
-              <span class="p_r font-bold text-yellow-900 group-hover:text-blue-900 ">
+              <span class="-p font-bold text-b-t1a1 group-hover:text-b-t1a3">
                      Note:
               </span>
               
-              <span class="p_r">
+              <span class="-p">
                     If you want to check a component, open the navigation menu and 
                     navigate to that component's page. You will also get the code link of that 
                     component there. 
@@ -77,7 +77,7 @@
     
     
     <!-- Illustratoin -->
-    <div class="bg-gray-100 
+    <div class="bg-s-t1a1
      p-8 my-4
      flex justify-center">
 

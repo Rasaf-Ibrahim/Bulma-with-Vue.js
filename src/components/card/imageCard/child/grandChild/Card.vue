@@ -1,10 +1,10 @@
 <template>
     
 <!-- card -->
-<div class="card-1_r bg-gray-700 text-white">
+<div class="-card-1 bg-s-t1a2">
 
     <!-- image < card -->
-    <img class="card-image-1_r" 
+    <img class="-card-image-1" 
 
         :src="fileLink"
 

@@ -1,11 +1,11 @@
  
-.fade-enter-active {
+.-fade-enter-active {
     animation: fade ease 3s;
-    }
+  }
     
-    .fade-leave-active {
-    animation: fade ease 1s reverse;
-    }
+.-fade-leave-active {
+  animation: fade ease 1s reverse;
+}
     
     
     @keyframes fade{

@@ -10,31 +10,31 @@ font-size of title-1, title-2 & title-3 is larger than any heading.
 
 
 // Title
-.title-1_r{ @include title-1;}
+.-title-1{ @include title-1;}
 
-.title-2_r{ @include title-2;}
+.-title-2{ @include title-2;}
 
-.title-3_r{ @include title-3;}
+.-title-3{ @include title-3;}
 
 
 // Headings
 
-.h1_r{@include h1;}
+.-h1{@include h1;}
 
-.h2_r{@include h2;}
+.-h2{@include h2;}
 
-.h3_r{@include h3;}
+.-h3{@include h3;}
 
-.h4_r{@include h4;}
+.-h4{@include h4;}
 
-.h5_r{@include h5;}
+.-h5{@include h5;}
 
-.h6_r{@include h6;}
+.-h6{@include h6;}
 
 
 // Paragraph
 
-.p_r{@include p;}
+.-p{@include p;}
 
 
 

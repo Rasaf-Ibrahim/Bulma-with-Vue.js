@@ -1,11 +1,266 @@
 module.exports = {
   purge: ['./index.html', './src/**/*.{html,js,ts,jsx,tsx,vue}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
 
   theme: {
 
     extend: {
 
+
+      backgroundColor: {
+
+        //  surface color
+        
+        s:{
+
+            t1a1: 'var(--surface-type-1-alpha-1)',
+            t1a2: 'var(--surface-type-1-alpha-2)',
+            t1a3: 'var(--surface-type-1-alpha-3)',
+            t1a4: 'var(--surface-type-1-alpha-4)',
+            t1a5: 'var(--surface-type-1-alpha-5)',
+            
+            
+            t2a1: 'var(--surface-type-2-alpha-1)',
+            t2a2: 'var(--surface-type-2-alpha-2)',
+            t2a3: 'var(--surface-type-2-alpha-3)',
+            t2a4: 'var(--surface-type-2-alpha-4)',
+            t2a5: 'var(--surface-type-2-alpha-5)',
+
+        },
+
+
+        
+        //  brand color
+        
+        b:{
+
+          t1a1: 'var(--brand-type-1-alpha-1)',
+          t1a2: 'var(--brand-type-1-alpha-2)',
+          t1a3: 'var(--brand-type-1-alpha-3)',
+
+
+          t2a1: 'var(--brand-type-2-alpha-1)',
+          t2a2: 'var(--brand-type-2-alpha-2)',
+          t2a3: 'var(--brand-type-2-alpha-3)',
+
+
+        },
+
+
+        //  specific color
+
+        red:{
+
+          a1:'var(--red-alpha-1)',
+          a2:'var(--red-alpha-2)',
+          a3:'var(--red-alpha-3)',
+  
+         },
+
+
+         green:{
+
+          a1:'var(--green-alpha-1)',
+          a2:'var(--green-alpha-2)',
+          a3:'var(--green-alpha-3)',
+  
+         },
+        
+        blue:{
+
+         a1:'var(--blue-alpha-1)',
+         a2:'var(--blue-alpha-2)',
+         a3:'var(--blue-alpha-3)',
+ 
+        },
+
+        yellow:{
+
+          a1:'var(--yellow-alpha-1)',
+          a2:'var(--yellow-alpha-2)',
+          a3:'var(--yellow-alpha-3)',
+  
+         },
+
+
+
+      },
+
+
+
+
+     textColor:{
+
+      //  default color
+
+      l1:{
+
+         a1:'var(--layer-1-alpha-1)',
+         a2:'var(--layer-1-alpha-2)',
+         a3:'var(--layer-1-alpha-3)',
+
+       },
+
+
+       l2:{
+
+        a1:'var(--layer-2-alpha-1)',
+        a2:'var(--layer-2-alpha-2)',
+        a3:'var(--layer-2-alpha-3)',
+        
+      },
+
+
+  
+
+      // brand color
+
+       b:{
+
+        t1a1: 'var(--brand-type-1-alpha-1)',
+        t1a2: 'var(--brand-type-1-alpha-2)',
+        t1a3: 'var(--brand-type-1-alpha-3)',
+
+        t2a1: 'var(--brand-type-2-alpha-1)',
+        t2a2: 'var(--brand-type-2-alpha-2)',
+        t2a3: 'var(--brand-type-2-alpha-3)',
+
+      },
+
+
+     
+
+   
+        //  specific color
+
+        red:{
+
+          a1:'var(--red-alpha-1)',
+          a2:'var(--red-alpha-2)',
+          a3:'var(--red-alpha-3)',
+  
+         },
+
+
+         green:{
+
+          a1:'var(--green-alpha-1)',
+          a2:'var(--green-alpha-2)',
+          a3:'var(--green-alpha-3)',
+  
+         },
+        
+        blue:{
+
+         a1:'var(--blue-alpha-1)',
+         a2:'var(--blue-alpha-2)',
+         a3:'var(--blue-alpha-3)',
+ 
+        },
+
+        yellow:{
+
+          a1:'var(--yellow-alpha-1)',
+          a2:'var(--yellow-alpha-2)',
+          a3:'var(--yellow-alpha-3)',
+  
+         },
+
+
+         
+        //  surface color  (Just for SVG)
+        
+        s:{
+
+          t1a1: 'var(--surface-type-1-alpha-1)',
+          t1a2: 'var(--surface-type-1-alpha-2)',
+          t1a3: 'var(--surface-type-1-alpha-3)',
+          t1a4: 'var(--surface-type-1-alpha-4)',
+          t1a5: 'var(--surface-type-1-alpha-5)',
+          
+          
+          t2a1: 'var(--surface-type-2-alpha-1)',
+          t2a2: 'var(--surface-type-2-alpha-2)',
+          t2a3: 'var(--surface-type-2-alpha-3)',
+          t2a4: 'var(--surface-type-2-alpha-4)',
+          t2a5: 'var(--surface-type-2-alpha-5)',
+
+      },
+
+
+
+     },
+
+
+
+
+      borderColor:{
+
+
+      //  brand Color
+
+      
+        b:{
+
+          t1a1: 'var(--brand-type-1-alpha-1)',
+          t1a2: 'var(--brand-type-1-alpha-2)',
+          t1a3: 'var(--brand-type-1-alpha-3)',
+
+
+          t2a1: 'var(--brand-type-2-alpha-1)',
+          t2a2: 'var(--brand-type-2-alpha-2)',
+          t2a3: 'var(--brand-type-2-alpha-3)',
+
+
+        },
+
+          //  specific color
+
+          red:{
+
+            a1:'var(--red-alpha-1)',
+            a2:'var(--red-alpha-2)',
+            a3:'var(--red-alpha-3)',
+    
+           },
+  
+  
+           green:{
+  
+            a1:'var(--green-alpha-1)',
+            a2:'var(--green-alpha-2)',
+            a3:'var(--green-alpha-3)',
+    
+           },
+          
+          blue:{
+  
+           a1:'var(--blue-alpha-1)',
+           a2:'var(--blue-alpha-2)',
+           a3:'var(--blue-alpha-3)',
+   
+          },
+  
+          yellow:{
+  
+            a1:'var(--yellow-alpha-1)',
+            a2:'var(--yellow-alpha-2)',
+            a3:'var(--yellow-alpha-3)',
+    
+           },
+  
+
+      
+     
+
+
+      },
+
+
+
+
+
+ 
       
 // Breakpoints
 

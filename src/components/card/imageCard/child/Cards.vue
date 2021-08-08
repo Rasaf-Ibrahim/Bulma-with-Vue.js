@@ -2,9 +2,9 @@
 
 <!-- Multiple Cards -->
 
-<div class="card-1-3-grand-parent_r">
+<div class="-card-1-3-grand-parent">
 
-    <div class="card-1-3-parent_r ">
+    <div class="-card-1-3-parent ">
 
         
         <Card

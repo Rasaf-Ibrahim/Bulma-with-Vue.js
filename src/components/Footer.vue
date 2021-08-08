@@ -1,14 +1,14 @@
 <template>
 
-<div class="bg-gray-900 text-white
+<div class="bg-s-t1a5 shadow 
      text-center p-8
      group">
 
-    <div class="p_r">
+    <div class="-p">
         Check out the code of the website on 
     
         <a :href="link" 
-            class="font-bold text-yellow-600 
+            class="font-bold text-b-t1a1
             group-hover:animate-pulse
             cursor-pointer"
             title="Click">

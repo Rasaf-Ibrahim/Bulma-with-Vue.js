@@ -8,9 +8,8 @@
 <!-- ⬇️ ⤵️ ⬇️ This page's main code is staring from here ⬇️ ⤵️ ⬇️ -->
 
 
-<main class="my-8">
+<main class="my-8 ">
 
-    <Icons/>
 
     <AllSocialMediaIcons/>
 
@@ -39,14 +38,14 @@
 
 <script>
 
-import Icons from '../components/contact/Icons.vue'
+
 import AllSocialMediaIcons from '../components/contact/AllSocialMediaIcons.vue'
 import Footer from '../components/Footer.vue'
 
 
   export default {
 
-      components: {Icons,AllSocialMediaIcons,Footer},
+      components: {AllSocialMediaIcons,Footer},
 
   }
    

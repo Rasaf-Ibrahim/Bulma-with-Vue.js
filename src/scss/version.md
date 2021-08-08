@@ -1,10 +1,10 @@
 
 
-# Current Version : 1.8
+# Current Version: 2.1
 
 
 
-##   Release Notes (Difference with the version 1.7)
+##   Release Notes (Difference with the version 1.8)
 
 
 
@@ -12,8 +12,8 @@
 
 ***
 
-- All the files extension is changed to scss.
-- font-size (helpers)
+- theme folder is new and all the files there is new.
+- 
 
 > #### File Name/ file location has been changed
 
@@ -27,7 +27,7 @@
 
 ***
 
-- breakpoints (helpers)
+- 
 
 
 > ####  tailwindconfig.js has been Updated
@@ -36,7 +36,7 @@
 
 
 
-- Yes
+- 
 - 
 
 
@@ -50,7 +50,7 @@
 
 ***
 
-- font-size 
+- colorsVariable folder
 - 
 
 

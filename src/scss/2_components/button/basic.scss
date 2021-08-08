@@ -1,6 +1,6 @@
 /* Main class */
 
-.btn_r{
+.-btn{
     @apply 
     cursor-pointer
     shadow hover:shadow-md
@@ -19,22 +19,6 @@
 
 
 
-
-/* Scale up and down on hover */
-
-.btn-scale-down_r{
-    @apply
-    transform
-    active:scale-95;
-    
-}
-
-.btn-scale-up_r{
-    @apply
-    transform
-    active:scale-105;
-    
-}
 
 
 

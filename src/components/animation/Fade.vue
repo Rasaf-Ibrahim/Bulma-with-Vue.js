@@ -1,7 +1,7 @@
 <template>
 
 <button @click="toggle"
-        class="btn_r btn-md_r rounded btn-green-light_r">
+        class="-btn -btn-md rounded -btn-color-t1">
 
    <span v-show="show">Fade In</span>
    <span v-show="hide">Fade Out</span>
@@ -12,7 +12,7 @@
 <transition name="fade">
 
     <div v-show="hide"
-         class="h-5_r bg-gray-500 text-gray-100
+         class="-h-5 bg-blue-a1 text-l2-a1
          p-2 mt-4">
 
      Hello, welcome to Bangladesh!

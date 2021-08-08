@@ -6,7 +6,7 @@
       
     <!-- Button < Dropdown -->
     <button @click="toggle"
-            class="btn_r btn-yellow-dark_r btn-md_r rounded"
+            class="-btn -btn-color-t1 -btn-md rounded"
             title="Click">
 
             Dropdown
@@ -18,14 +18,13 @@
     <!-- Content < Dropdown -->
 <transition>
     <div v-if="show"
-         class="text-gray-700
-         absolute mt-1 pt-1
+         class="absolute mt-1 pt-1
          z-50"> <!-- Z-index is needed when you are using fulbackground     overlay as the closing button of the dropdown -->
      
 
         <a  :href="martin"
            class="block
-           bg-yellow-200 hover:bg-yellow-400 
+           bg-s-t1a2 hover:bg-s-t1a5 shadow
             py-2 px-4
             cursor-pointer"> 
             St. Martin's Island 
@@ -33,7 +32,7 @@
 
         <a :href="kuakata"
            class="block
-           bg-yellow-200 hover:bg-yellow-400 
+            bg-s-t1a2 hover:bg-s-t1a5 shadow
             py-2 px-4
             cursor-pointer"> 
             Kuakata
@@ -41,7 +40,7 @@
 
         <a :href="coxsBazar"
            class="block
-           bg-yellow-200 hover:bg-yellow-400 
+           bg-s-t1a2 hover:bg-s-t1a5 shadow
             py-2 px-4
             cursor-pointer"> 
             Cox's Bazar

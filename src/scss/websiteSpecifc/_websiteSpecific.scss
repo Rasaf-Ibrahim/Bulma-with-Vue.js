@@ -1,0 +1,29 @@
+
+// router-link-active
+
+.router-link-active {
+
+// -btn-border-color-t1 
+
+    @apply
+
+    bg-transparent text-b-t1a1
+    border border-b-t1a1
+    hover:bg-b-t1a1 hover:text-l2-a1;
+    
+ 
+}
+
+
+.dark .router-link-active {
+
+  // -btn-border-color-t2 
+ 
+    @apply
+
+    bg-transparent text-b-t1a1
+    border border-b-t1a1
+    hover:bg-b-t1a1 hover:text-l2-a1;
+
+     
+}

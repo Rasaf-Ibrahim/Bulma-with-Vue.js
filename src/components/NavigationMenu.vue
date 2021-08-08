@@ -5,7 +5,7 @@
 
     <button @click="toggle"
           class="block w-full m-4
-                 btn_r btn-md_r btn-border-blue_r btn-scale-down_r"
+                 -btn -btn-md -btn-border-color-t1 -btn-scale-down"
     
           title="Menu">
             
@@ -32,57 +32,57 @@
 <!-- Navigation Menu -->
 
  <div  v-if="hide"
-       class="bg-blue-100
+       class="bg-s-t1a2 shadow-sm
        p-4 mb-4 
        flex flex-wrap">
 
 
     <router-link :to="{name:'home'}" 
-                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  class="-btn -btn-sm -btn-color-t1 -btn-scale-down m-2">
                   Home
     </router-link> 
 
 
     <router-link :to="{name:'AlertPage'}" 
-                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  class="-btn -btn-sm -btn-color-t1 -btn-scale-down m-2">
                   Alert
     </router-link> 
 
 
     <router-link 
                  :to="{name:'DropdownPage'}" 
-                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  class="-btn -btn-sm -btn-color-t1 -btn-scale-down m-2">
                   Dropdown 
     </router-link> 
 
 
     <router-link 
                  :to="{name:'ModalPage'}" 
-                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  class="-btn -btn-sm -btn-color-t1 -btn-scale-down m-2">
                   Modal
     </router-link> 
 
 
     <router-link 
                  :to="{name:'AnimationPage'}" 
-                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  class="-btn -btn-sm -btn-color-t1 -btn-scale-down m-2">
                   Animation
     </router-link> 
 
      <router-link 
                  :to="{name:'CardPage'}" 
-                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  class="-btn -btn-sm -btn-color-t1 -btn-scale-down m-2">
                   Card
     </router-link> 
 
     <router-link 
                  :to="{name:'ContactPage'}" 
-                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  class="-btn -btn-sm -btn-color-t1 -btn-scale-down m-2">
                   Contact
     </router-link> 
 
     <router-link :to="{name:'FormPage'}" 
-                  class="btn_r btn-sm_r bg-white btn-scale-down_r m-2">
+                  class="-btn -btn-sm -btn-color-t1 -btn-scale-down m-2">
                   Form
     </router-link> 
 
@@ -121,14 +121,4 @@
 
 
 
-<style  scoped>
 
-  .router-link-active {
-
-    @apply
-      bg-gray-500
-      text-white;
-   
-    }
-
-</style>

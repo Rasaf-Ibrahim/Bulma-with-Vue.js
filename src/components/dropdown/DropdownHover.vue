@@ -5,7 +5,7 @@
 <span class="group relative">
       
         <!-- Button < Dropdown -->
-    <button class="btn_r btn-pink-dark_r btn-md_r rounded">
+    <button class="-btn -btn-color-t1 -btn-md rounded">
 
             Dropdown
   
@@ -16,15 +16,15 @@
     <!-- Content < Dropdown -->
 
     <div class="hidden group-hover:block 
-       text-gray-700 p_r
-       absolute mt-1 pt-1">
+         -p
+        absolute mt-1 pt-1">
 
 
      
 
         <a  :href="dhaka"
            class="block
-           bg-pink-200 hover:bg-pink-400 
+           bg-s-t1a2 hover:bg-s-t1a5 shadow
             py-2 px-4
             cursor-pointer"> 
             Dhaka
@@ -32,7 +32,7 @@
 
         <a :href="chittagong"
            class="block
-           bg-pink-200 hover:bg-pink-400 
+           bg-s-t1a2 hover:bg-s-t1a5 shadow
             py-2 px-4
             cursor-pointer"> 
             Chittagong
@@ -40,7 +40,7 @@
 
         <a :href="sylhet"
            class="block
-           bg-pink-200 hover:bg-pink-400 
+           bg-s-t1a2 hover:bg-s-t1a5 shadow
             py-2 px-4
             cursor-pointer"> 
             Sylhet

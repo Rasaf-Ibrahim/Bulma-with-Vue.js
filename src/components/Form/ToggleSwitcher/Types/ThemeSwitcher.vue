@@ -17,13 +17,15 @@
       <span class="slider round"></span>
     </label>
 </span>
-    
 
- 
+
+
 </template>
 
 
+
 <style lang="scss" scoped>
+
 
 
 /* The switch - the box around the slider */
@@ -43,8 +45,12 @@
 
 
 .slider {
+  @apply bg-b-t1a1;
+}
+
+.slider {
   position: absolute;
-  background-color: hsl(150,50%,20%);
+ 
   // This background color should be the dark surface color. 
   cursor: pointer;
   transition: .4s;
@@ -63,7 +69,7 @@
   left: 4px;
   transition: .4s;
 
-  background: hsl(0, 0%, 95%) url('https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/cb69444d78a6690ecde83a67f39a10539542d7bc/src/assets/svg/sun.svg');
+  background: white url('https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/cb69444d78a6690ecde83a67f39a10539542d7bc/src/assets/svg/sun.svg');
   
   background-repeat: no-repeat;
   background-position: center;
@@ -71,14 +77,14 @@
 }
 
 input:checked + .slider {
-  background-color:hsl(150,50%,70%);;
-  // This background color should be the dark surface color.  
+ 
+  @apply bg-b-t1a1;
 }
 
 input:checked + .slider:before {
   transform: translateX(26px);
 
-  background: hsl(0, 0%, 10%) url('https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/cb69444d78a6690ecde83a67f39a10539542d7bc/src/assets/svg/moon.svg');
+  background: black url('https://raw.githubusercontent.com/Rasaf-Ibrahim/Some-Designed-Components/cb69444d78a6690ecde83a67f39a10539542d7bc/src/assets/svg/moon.svg');
 
   
   background-position: center;

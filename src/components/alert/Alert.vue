@@ -1,7 +1,8 @@
 <template>
 
+
 <div v-if="open" 
-     class="bg-red-500 text-white p_r
+     class="bg-red-a1 text-l2-a1 -p
            max-w-98% mx-auto 
            mb-4 px-6 py-4  
            rounded-xl

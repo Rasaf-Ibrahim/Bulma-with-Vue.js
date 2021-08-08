@@ -1,7 +1,7 @@
 <template>
 
 <!-- Title -->
-<div class="h-2_r text-center my-4 ">
+<div class="-h2 text-center my-4 ">
 Multiple Image Cards
 </div>
 
