@@ -1,0 +1,10 @@
+Mobile First Approach - HTML, CSS, JS 
+
+Navbar  example- 
+
+https://codepen.io/monicasb/pen/QaxzbM
+
+
+
+Sidebar Example - 
+

@@ -1,11 +1,60 @@
 module.exports = {
-  purge: ['./index.html', './src/**/*.{html,js,ts,jsx,tsx,vue}'],
+  mode: 'jit',
+   
+
+  // purge: ['./index.html', './src/**/*.{html,js,ts,jsx,tsx,vue}'],
+
+  purge: {
+    content: [
+      `components/**/*.{vue,js}`,
+      `layouts/**/*.vue`,
+      `pages/**/*.vue`,
+      `plugins/**/*.{js,ts}`,
+      `nuxt.config.{js,ts}`
+    ]
+  },
+
+
   darkMode: 'class', // or 'media' or 'class'
 
   theme: {
 
+
+
+ /*  
+ 
+ --- TABLE OF CONTENTS ---   (Search with following keywords)
+
+
+
+  **backgroundColor**
+
+  **textColor**
+
+  **borderColor**
+
+  **breakpoints**
+
+  **fontFamily**
+
+  **padding,margin,height,width**
+
+  *** maxWidth  ***
+
+  *** minHeight  ***
+
+  *** variants  ***
+
+
+
+
+ */
+
+
+
     extend: {
 
+    /* **backgroundColor** */
 
       backgroundColor: {
 
@@ -34,14 +83,25 @@ module.exports = {
         
         b:{
 
-          t1a1: 'var(--brand-type-1-alpha-1)',
-          t1a2: 'var(--brand-type-1-alpha-2)',
-          t1a3: 'var(--brand-type-1-alpha-3)',
+          t1l1a1: 'var(--brand-type-1-layer-1-alpha-1)',
+          t1l1a2: 'var(--brand-type-1-layer-1-alpha-2)',
+          t1l1a3: 'var(--brand-type-1-layer-1-alpha-3)',
+
+          t1l2a1: 'var(--brand-type-1-layer-2-alpha-1)',
+          t1l2a2: 'var(--brand-type-1-layer-2-alpha-2)',
+          t1l2a3: 'var(--brand-type-1-layer-2-alpha-3)',
 
 
-          t2a1: 'var(--brand-type-2-alpha-1)',
-          t2a2: 'var(--brand-type-2-alpha-2)',
-          t2a3: 'var(--brand-type-2-alpha-3)',
+
+
+          
+          t2l1a1: 'var(--brand-type-2-layer-1-alpha-1)',
+          t2l1a2: 'var(--brand-type-2-layer-1-alpha-2)',
+          t2l1a3: 'var(--brand-type-2-layer-1-alpha-3)',
+
+          t2l2a1: 'var(--brand-type-2-layer-2-alpha-1)',
+          t2l2a2: 'var(--brand-type-2-layer-2-alpha-2)',
+          t2l2a3: 'var(--brand-type-2-layer-2-alpha-3)',
 
 
         },
@@ -88,6 +148,7 @@ module.exports = {
 
 
 
+    /* **textColor** */
 
      textColor:{
 
@@ -111,21 +172,35 @@ module.exports = {
       },
 
 
-  
+        //  brand color
+        
+        b:{
 
-      // brand color
+          t1l1a1: 'var(--brand-type-1-layer-1-alpha-1)',
+          t1l1a2: 'var(--brand-type-1-layer-1-alpha-2)',
+          t1l1a3: 'var(--brand-type-1-layer-1-alpha-3)',
 
-       b:{
+          t1l2a1: 'var(--brand-type-1-layer-2-alpha-1)',
+          t1l2a2: 'var(--brand-type-1-layer-2-alpha-2)',
+          t1l2a3: 'var(--brand-type-1-layer-2-alpha-3)',
 
-        t1a1: 'var(--brand-type-1-alpha-1)',
-        t1a2: 'var(--brand-type-1-alpha-2)',
-        t1a3: 'var(--brand-type-1-alpha-3)',
 
-        t2a1: 'var(--brand-type-2-alpha-1)',
-        t2a2: 'var(--brand-type-2-alpha-2)',
-        t2a3: 'var(--brand-type-2-alpha-3)',
 
-      },
+
+          
+          t2l1a1: 'var(--brand-type-2-layer-1-alpha-1)',
+          t2l1a2: 'var(--brand-type-2-layer-1-alpha-2)',
+          t2l1a3: 'var(--brand-type-2-layer-1-alpha-3)',
+
+          t2l2a1: 'var(--brand-type-2-layer-2-alpha-1)',
+          t2l2a2: 'var(--brand-type-2-layer-2-alpha-2)',
+          t2l2a3: 'var(--brand-type-2-layer-2-alpha-3)',
+
+
+        },
+
+    
+
 
 
      
@@ -192,27 +267,47 @@ module.exports = {
      },
 
 
-
+     /* **brandColor** */
 
       borderColor:{
 
 
-      //  brand Color
 
-      
-        b:{
+        //  brand color
+        
+        brand:{
+           /* can't name it 'b'. Because that  will clash with 'border bottom'. So, we've named it 'brand' instead of 'b' */
 
-          t1a1: 'var(--brand-type-1-alpha-1)',
-          t1a2: 'var(--brand-type-1-alpha-2)',
-          t1a3: 'var(--brand-type-1-alpha-3)',
+          t1l1a1: 'var(--brand-type-1-layer-1-alpha-1)',
+          t1l1a2: 'var(--brand-type-1-layer-1-alpha-2)',
+          t1l1a3: 'var(--brand-type-1-layer-1-alpha-3)',
+
+          t1l2a1: 'var(--brand-type-1-layer-2-alpha-1)',
+          t1l2a2: 'var(--brand-type-1-layer-2-alpha-2)',
+          t1l2a3: 'var(--brand-type-1-layer-2-alpha-3)',
 
 
-          t2a1: 'var(--brand-type-2-alpha-1)',
-          t2a2: 'var(--brand-type-2-alpha-2)',
-          t2a3: 'var(--brand-type-2-alpha-3)',
+
+
+          
+          t2l1a1: 'var(--brand-type-2-layer-1-alpha-1)',
+          t2l1a2: 'var(--brand-type-2-layer-1-alpha-2)',
+          t2l1a3: 'var(--brand-type-2-layer-1-alpha-3)',
+
+          t2l2a1: 'var(--brand-type-2-layer-2-alpha-1)',
+          t2l2a2: 'var(--brand-type-2-layer-2-alpha-2)',
+          t2l2a3: 'var(--brand-type-2-layer-2-alpha-3)',
 
 
         },
+
+
+
+
+
+
+       
+        
 
           //  specific color
 
@@ -221,6 +316,7 @@ module.exports = {
             a1:'var(--red-alpha-1)',
             a2:'var(--red-alpha-2)',
             a3:'var(--red-alpha-3)',
+            t1: 'var(--brand-type-1-alpha-1)',
     
            },
   
@@ -262,7 +358,7 @@ module.exports = {
 
  
       
-// Breakpoints
+  /* **breakpoints** */
 
   screens: {
     's-md': '688px',
@@ -283,9 +379,11 @@ module.exports = {
 
 
 
-  // Font-Family
+  /* **fontFamily** */
+
+
   fontFamily: {
-    'regular': ['Lato', 'sans-serif'],
+    'regularem': ['Lato', 'sans-serif'],
     'regular-space': ['Roboto Mono', 'monospace'],
     'cursive-1': ['Lobster Two', 'cursive'],
     'cursive-2': ['Kaushan Script', 'cursive'],
@@ -299,10 +397,132 @@ module.exports = {
 
 
 
+  /* **padding,margin,height,width** */
+
+ 
+  spacing: {
+
+    '0px':'0rem', 
+    '2px': '0.125rem', 
+    '4px': '0.25rem', 
+    '6px': '0.375rem', 
+    '8px': '0.5rem', 
+    '10px': '0.625rem', 
+    '12px':'0.75rem', 
+    '14px':'0.875rem',
+    
+    
+    '1rem':'1rem', //16px
+    '1.25rem':'1.25rem', 
+    '1.5rem':'1.5rem', 
+    '1.75rem':'1.75rem', 
+
+
+    '2rem':'2rem', 
+    '2.25rem':'2.25rem', 
+    '2.5rem':'2.5rem', 
+    '2.75rem':'2.75rem', 
+
+
+    '3rem':'3rem', 
+    '3.5rem':'3.5rem', 
+    
+    
+    '4rem':'4rem', 
+    '5rem':'5rem', 
+    '6rem':'6rem',
+    '7rem':'7rem',
+    '8rem':'8rem',
+    '9rem':'9rem',
+    '10rem':'10rem',
+
+    '11rem':'11rem',
+    '12rem':'12rem',
+    '13rem':'13rem',
+    '14rem':'14rem',
+    '15rem':'15rem',
+    '16rem':'16rem', 
+    '17rem':'16rem', 
+    '18rem':'18rem', 
+    '19rem':'19rem',
+    '20rem':'20rem',
+
+    '21rem':'21rem',
+    '22rem':'22rem',
+    '23rem':'23rem',
+    '24rem':'24rem',
+    '25rem':'25rem',
+    '26rem':'26rem',
+    '27rem':'27rem',
+    '28rem':'28rem',
+    '29rem':'29rem',
+    '30rem':'30rem',
+
+    '31rem':'31rem',
+    '32rem':'32rem',
+    '33rem':'33rem',
+    '34rem':'34rem',
+    '35rem':'35rem',
+    '36rem':'36rem',
+    '37rem':'37rem',
+    '38rem':'38rem',
+    '39rem':'39rem',
+    '40rem':'40rem',
+
+    '41rem':'41rem',
+    '42rem':'42rem',
+    '43rem':'43rem',
+    '44rem':'44rem',
+    '45rem':'45rem',
+    '46rem':'46rem',
+    '47rem':'47rem',
+    '48rem':'48rem',
+    '49rem':'49rem',
+    '50rem':'50rem',
+
+
+    '51rem':'51rem',
+    '52rem':'52rem',
+    '53rem':'53rem',
+    '54rem':'54rem',
+    '55rem':'55rem',
+    '56rem':'56rem',
+    '57rem':'57rem',
+    '58rem':'58rem',
+    '59rem':'59rem',
+    '60rem':'60rem',
+
+
+    '61rem':'61rem',
+    '62rem':'62rem',
+    '63rem':'63rem',
+    '64rem':'64rem',
+    '65rem':'65rem',
+    '66rem':'66rem',
+    '67rem':'67rem',
+    '68rem':'68rem',
+    '69rem':'69rem',
+    '70rem':'70rem',
+
+
+    '71rem':'71rem',
+    '72rem':'72rem',
+    '73rem':'73rem',
+    '74rem':'74rem',
+    '75rem':'75rem',
+    '76rem':'76rem',
+    '77rem':'77rem',
+    '78rem':'78rem',
+    '79rem':'79rem',
+    '80rem':'80rem',
+
+  },
+
 
 
 
     // Max-width
+
     maxWidth: {
       '25%': '25%',
       '40%': "40%",
@@ -313,24 +533,183 @@ module.exports = {
       '98%': '98%',
 
 
-      '12rem':'12rem',
-      '16rem':'16rem',
-      '20rem':'20rem',
-      '24rem':'24rem',
-      '28rem':'28rem',
-      '32rem':'32rem',
-      '36rem':'36rem',
-      '40rem':'40rem',
-      '44rem':'44rem',
-      '48rem':'48rem',
-      '52rem':'52rem',
-      '56rem':'56rem',
-      '60rem':'60rem',
-      '64rem':'64rem',
-      '68rem':'68rem',
-      '72rem':'72rem',
-      '76rem':'76rem',
-      '80rem':'80rem'
+    '11rem':'11rem',
+    '12rem':'12rem',
+    '13rem':'13rem',
+    '14rem':'14rem',
+    '15rem':'15rem',
+    '16rem':'16rem', 
+    '17rem':'17rem', 
+    '18rem':'18rem', 
+    '19rem':'19rem',
+    '20rem':'20rem',
+
+    '21rem':'21rem',
+    '22rem':'22rem',
+    '23rem':'23rem',
+    '24rem':'24rem',
+    '25rem':'25rem',
+    '26rem':'26rem',
+    '27rem':'27rem',
+    '28rem':'28rem',
+    '29rem':'29rem',
+    '30rem':'30rem',
+
+    '31rem':'31rem',
+    '32rem':'32rem',
+    '33rem':'33rem',
+    '34rem':'34rem',
+    '35rem':'35rem',
+    '36rem':'36rem',
+    '37rem':'37rem',
+    '38rem':'38rem',
+    '39rem':'39rem',
+    '40rem':'40rem',
+
+    '41rem':'41rem',
+    '42rem':'42rem',
+    '43rem':'43rem',
+    '44rem':'44rem',
+    '45rem':'45rem',
+    '46rem':'46rem',
+    '47rem':'47rem',
+    '48rem':'48rem',
+    '49rem':'49rem',
+    '50rem':'50rem',
+
+
+    '51rem':'51rem',
+    '52rem':'52rem',
+    '53rem':'53rem',
+    '54rem':'54rem',
+    '55rem':'55rem',
+    '56rem':'56rem',
+    '57rem':'57rem',
+    '58rem':'58rem',
+    '59rem':'59rem',
+    '60rem':'60rem',
+
+
+    '61rem':'61rem',
+    '62rem':'62rem',
+    '63rem':'63rem',
+    '64rem':'64rem',
+    '65rem':'65rem',
+    '66rem':'66rem',
+    '67rem':'67rem',
+    '68rem':'68rem',
+    '69rem':'69rem',
+    '70rem':'70rem',
+
+
+    '71rem':'71rem',
+    '72rem':'72rem',
+    '73rem':'73rem',
+    '74rem':'74rem',
+    '75rem':'75rem',
+    '76rem':'76rem',
+    '77rem':'77rem',
+    '78rem':'78rem',
+    '79rem':'79rem',
+    '80rem':'80rem',
+
+
+     },
+
+
+    
+    // Min-width
+
+    minWidth: {
+      '25%': '25%',
+      '40%': "40%",
+      '50%': '50%',
+      '60%': '60%',
+      '75%': '75%',
+      '90%': '90%', 
+      '98%': '98%',
+
+
+    '11rem':'11rem',
+    '12rem':'12rem',
+    '13rem':'13rem',
+    '14rem':'14rem',
+    '15rem':'15rem',
+    '16rem':'16rem', 
+    '17rem':'16rem', 
+    '18rem':'18rem', 
+    '19rem':'19rem',
+    '20rem':'20rem',
+
+    '21rem':'21rem',
+    '22rem':'22rem',
+    '23rem':'23rem',
+    '24rem':'24rem',
+    '25rem':'25rem',
+    '26rem':'26rem',
+    '27rem':'27rem',
+    '28rem':'28rem',
+    '29rem':'29rem',
+    '30rem':'30rem',
+
+    '31rem':'31rem',
+    '32rem':'32rem',
+    '33rem':'33rem',
+    '34rem':'34rem',
+    '35rem':'35rem',
+    '36rem':'36rem',
+    '37rem':'37rem',
+    '38rem':'38rem',
+    '39rem':'39rem',
+    '40rem':'40rem',
+
+    '41rem':'41rem',
+    '42rem':'42rem',
+    '43rem':'43rem',
+    '44rem':'44rem',
+    '45rem':'45rem',
+    '46rem':'46rem',
+    '47rem':'47rem',
+    '48rem':'48rem',
+    '49rem':'49rem',
+    '50rem':'50rem',
+
+
+    '51rem':'51rem',
+    '52rem':'52rem',
+    '53rem':'53rem',
+    '54rem':'54rem',
+    '55rem':'55rem',
+    '56rem':'56rem',
+    '57rem':'57rem',
+    '58rem':'58rem',
+    '59rem':'59rem',
+    '60rem':'60rem',
+
+
+    '61rem':'61rem',
+    '62rem':'62rem',
+    '63rem':'63rem',
+    '64rem':'64rem',
+    '65rem':'65rem',
+    '66rem':'66rem',
+    '67rem':'67rem',
+    '68rem':'68rem',
+    '69rem':'69rem',
+    '70rem':'70rem',
+
+
+    '71rem':'71rem',
+    '72rem':'72rem',
+    '73rem':'73rem',
+    '74rem':'74rem',
+    '75rem':'75rem',
+    '76rem':'76rem',
+    '77rem':'77rem',
+    '78rem':'78rem',
+    '79rem':'79rem',
+    '80rem':'80rem',
+
 
      },
 
