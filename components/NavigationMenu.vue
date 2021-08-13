@@ -54,61 +54,61 @@
     <!-- Navigation Menu -->
 
     <div v-if="hide" class="bg-s-t1a2 shadow-sm p-4 mb-4 flex flex-wrap">
-      <router-link
+      <NuxtLink
         :to="{ name: 'index' }"
         class="-btn -btn-sm -btn-color-t1l1 -btn-scale-down m-2"
       >
         Home
-      </router-link>
+      </NuxtLink>
 
-      <router-link
+      <NuxtLink
         :to="{ name: 'alert' }"
         class="-btn -btn-sm -btn-color-t1l1 -btn-scale-down m-2"
       >
         Alert
-      </router-link>
+      </NuxtLink>
 
-      <router-link
+      <NuxtLink
         :to="{ name: 'dropdown' }"
         class="-btn -btn-sm -btn-color-t1l1 -btn-scale-down m-2"
       >
         Dropdown
-      </router-link>
+      </NuxtLink>
 
-      <router-link
+      <NuxtLink
         :to="{ name: 'modal' }"
         class="-btn -btn-sm -btn-color-t1l1 -btn-scale-down m-2"
       >
         Modal
-      </router-link>
+      </NuxtLink>
 
-      <router-link
+      <NuxtLink
         :to="{ name: 'animation' }"
         class="-btn -btn-sm -btn-color-t1l1 -btn-scale-down m-2"
       >
         Animation
-      </router-link>
+      </NuxtLink>
 
-      <router-link
+      <NuxtLink
         :to="{ name: 'card' }"
         class="-btn -btn-sm -btn-color-t1l1 -btn-scale-down m-2"
       >
         Card
-      </router-link>
+      </NuxtLink>
 
-      <router-link
+      <NuxtLink
         :to="{ name: 'contact' }"
         class="-btn -btn-sm -btn-color-t1l1 -btn-scale-down m-2"
       >
         Contact
-      </router-link>
+      </NuxtLink>
 
-      <router-link
+      <NuxtLink
         :to="{ name: 'form' }"
         class="-btn -btn-sm -btn-color-t1l1 -btn-scale-down m-2"
       >
         Form
-      </router-link>
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -133,6 +133,7 @@ export default {
     },
   },
 };
+
 </script>
 
 
