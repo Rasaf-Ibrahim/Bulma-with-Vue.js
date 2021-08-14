@@ -82,6 +82,16 @@
         Modal
       </NuxtLink>
 
+       <NuxtLink :to="{ name: 'navbar' }"
+                 class="-btn -btn-sm -btn-color-t1l1 -btn-scale-down m-2">
+        Navbar
+      </NuxtLink>
+
+      <NuxtLink :to="{ name: 'sidebar' }"
+                 class="-btn -btn-sm -btn-color-t1l1 -btn-scale-down m-2">
+        Sidebar
+      </NuxtLink>
+
       <NuxtLink
         :to="{ name: 'animation' }"
         class="-btn -btn-sm -btn-color-t1l1 -btn-scale-down m-2"
