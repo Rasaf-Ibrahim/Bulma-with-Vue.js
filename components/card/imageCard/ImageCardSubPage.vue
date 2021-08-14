@@ -1,43 +1,29 @@
 <template>
-<div>
+  <div>
+    <!-- Title -->
+    <div class="-h2 text-center my-4">Multiple Image Cards</div>
 
-<!-- Title -->
-<div class="-h2 text-center my-4 ">
-Multiple Image Cards
-</div>
+    <!-- Cards -->
+    <div class="my-4">
+      <Cards />
+    </div>
 
-<!-- Cards -->
-<div class="my-4">
+    <!-- CodeLink -->
 
-       <Cards/>
-
-</div>
-
-<!-- CodeLink -->
-
-<div class="my-8">
-
-    <CodeLink
-    
-    name="Image Card"
-    
-    link="https://github.com/Rasaf-Ibrahim/Some-Designed-Components/blob/master/src/components/card/imageCard"  
-
-/>
-
-</div>   
-
-
-</div>
+    <div class="my-8">
+      <CodeLink
+        name="Image Card"
+        link="https://github.com/Rasaf-Ibrahim/Some-Designed-Components/blob/master/components/card/imageCard"
+      />
+    </div>
+  </div>
 </template>
 
 <script>
-import Cards from './child/Cards.vue'
-import CodeLink from '../../CodeLink.vue'
-    export default {
-
-        components:{Cards, CodeLink}
-        
-    }
+import Cards from "./child/Cards.vue";
+import CodeLink from "../../CodeLink.vue";
+export default {
+  components: { Cards, CodeLink },
+};
 </script>
 

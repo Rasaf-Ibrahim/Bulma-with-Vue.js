@@ -1069,7 +1069,7 @@ export default {
   data() {
     return {
       //  Footer link
-      link: "https://github.com/Rasaf-Ibrahim/Some-Designed-Components/blob/master/src/views/Home.vue",
+      link: "https://github.com/Rasaf-Ibrahim/Some-Designed-Components/blob/master/views/Home.vue",
     };
   },
 };
