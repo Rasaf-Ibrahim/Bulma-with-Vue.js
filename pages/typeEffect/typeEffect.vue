@@ -1,12 +1,6 @@
 <template>
-  <div class="flex flex-col min-h-screen">
-    <!-- Wraper (Everything) --->
-    <div>
-      <!-- Wraper (Everything but footer) -->
-
-      <!--  The above codes are related to footer. (To keep the footer at the bottom)-->
-
-      <!-- ⬇️ ⤵️ ⬇️ This page's main code is staring from here ⬇️ ⤵️ ⬇️ -->
+  <div >
+ 
 
       <main class="container">
         <h1>
@@ -16,18 +10,9 @@
         </h1>
       </main>
 
-      <!-- ⬆️ ⤴️ ⬆️  This page's main code is ending here ⬆️ ⤴️ ⬆️ -->
-
-      <!-- The following codes are related to footer -->
-    </div>
-    <!-- End: Wraper (Everything but footer) -->
-
-    <!-- Footer -->
-    <div class="mt-auto">
-      <Footer :link="link" />
-    </div>
+    
   </div>
-  <!-- End: Wraper (Everything) -->
+ 
 </template>
 
 
