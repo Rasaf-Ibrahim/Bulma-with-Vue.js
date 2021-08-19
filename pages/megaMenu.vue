@@ -1,33 +1,36 @@
 <template>
-  <!-- Dropdown (on hover)-->
+
+
+
+
+
+ <!-- navbar goes here -->
+<nav class="bg-s-t1a3 shadow text-l1-a1 -p ">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="flex justify-between">
+
+      <div class="flex space-x-4">
+    
+
+        <!-- primary nav -->
+        <div class="hidden md:flex items-center space-x-1">
+          <a href="#" class="py-5 px-3 hover:text-b-t1l1a2">Features</a>
+          <a href="#" class="py-5 px-3 hover:text-b-t1l1a2">Pricing</a>
+
+
+            <!-- Dropdown (on hover)-->
 
   <span class="group relative">
     <!-- Button < Dropdown -->
-    <button class="-btn -btn-color-t1l1 -btn-md rounded">
+    <span>
       Dropdown
-
       <svg
-        class="inline-block h-4 w-4 ml-1"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M19 9l-7 7-7-7"
-        />
-      </svg>
-    </button>
+        class="inline-block h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /> </svg>
+    </span>
 
     <!-- Content < Dropdown -->
 
-    
-
-    <div class="hidden group-hover:block -p absolute pt-1">  <!-- Don't use any top margin here in this  div. If you use any top margin here, then dropdown content will get closed before you move your mouse from dropdown  button to dropdown content. -->
-
-      
+    <span class="hidden group-hover:block -p absolute  pt-1">
       <a
         :href="dhaka"
         class="block bg-s-t1a2 hover:bg-s-t1a5 shadow py-2 px-4 cursor-pointer"
@@ -48,10 +51,38 @@
       >
         Sylhet
       </a>
-    </div>
+    </span>
     <!-- End: Content < Dropdown -->
   </span>
   <!-- End: Dropdown -->
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  </nav>
+
+
+
+
+
+
+
+
+
+
 </template>
 
 
@@ -69,7 +100,6 @@ export default {
   },
 };
 </script>
-
 
 
 

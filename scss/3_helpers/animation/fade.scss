@@ -1,9 +1,9 @@
  
-.-fade-enter-active {
+.-fade-in {
     animation: fade ease 3s;
   }
     
-.-fade-leave-active {
+.-fade-out {
   animation: fade ease 1s reverse;
 }
     

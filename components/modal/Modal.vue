@@ -25,7 +25,7 @@
         w-3/4
         lg:w-1/2
         p-2
-        bg-blue-a1
+        bg-b-t1l1a1
         text-l2-a1
         shadow-2xl
         grid
@@ -35,7 +35,7 @@
       <!-- Close Icon < Modal < Modal Background -->
       <div
         v-on:click="toggleModal()"
-        class="col-span-12 justify-self-end text-red-a1 cursor-pointer"
+        class="col-span-12 justify-self-end text-red-l2a1 cursor-pointer"
         title="Click to close"
       >
         <svg class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">

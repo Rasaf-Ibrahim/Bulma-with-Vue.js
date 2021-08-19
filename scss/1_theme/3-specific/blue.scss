@@ -4,35 +4,57 @@
 
     :root {
 
+        //bg-blue-l1-a1 or, text-blue-l1-a1
+       --blue-layer-1-alpha-1: hsla(190,85%,40%,1); 
 
-        //bg-blue-a1 or, //text-blue-a1
-       --blue-alpha-1: hsla(190,90%,40%,1); 
+       //bg-blue-l1-a2 or, text-blue-l1-a2
+       --blue-layer-1-alpha-2: hsla(190,85%,40%,0.9); 
 
-       //bg-blue-a2 or, //text-blue-a2
-       --blue-alpha-2: hsla(190,90%,40%,0.9); 
+       //bg-blue-l1-a2 or, text-blue-l1-a2
+       --blue-layer-1-alpha-3: hsla(190,85%,40%,0.8); 
 
-       //bg-blue-a2 or, //text-blue-a2
-       --blue-alpha-3: hsla(190,90%,40%,0.8); 
+
+
+
+     
+      //bg-blue-l2-a1 or, text-blue-l2-a1
+      --blue-layer-2-alpha-1: hsla(190,85%,70%,1); 
+          
+      //bg-blue-l2-a2 or, text-blue-l2-a2
+      --blue-layer-2-alpha-2: hsla(190,85%,70%,0.9); 
+    
+      //bg-blue-l2-a2 or, text-blue-l2-a2
+      --blue-layer-2-alpha-3: hsla(190,85%,70%,0.8); 
+
 
 
     }
 
 
+
+
     .dark {
 
-        //bg-blue-a1 or, //text-blue-a1
-       --blue-alpha-1: hsla(190,90%,60%,1); 
+        //bg-blue-l1-a1 or, text-blue-l1-a1
+       --blue-layer-1-alpha-1: hsla(190,85%,70%,1); 
 
-       //bg-blue-a2 or, //text-blue-a2
-       --blue-alpha-2: hsla(190,90%,60%,0.9); 
+       //bg-blue-l1-a2 or, text-blue-l1-a2
+       --blue-layer-1-alpha-2: hsla(190,85%,70%,0.9); 
 
-       //bg-blue-a2 or, //text-blue-a2
-       --blue-alpha-3: hsla(190,90%,60%,0.8); 
+       //bg-blue-l1-a2 or, text-blue-l1-a2
+       --blue-layer-1-alpha-3: hsla(190,85%,70%,0.8); 
 
 
-       
-         
 
+       //bg-blue-l2-a1 or, text-blue-l2-a1
+       --blue-layer-2-alpha-1: hsla(190,85%,40%,1);
+      
+       //bg-blue-l2-a2 or, text-blue-l2-a2
+       --blue-layer-2-alpha-2: hsla(190,85%,40%,0.9); 
+
+       //bg-blue-l2-a2 or, text-blue-l2-a2
+       --blue-layer-2-alpha-3: hsla(190,85%,40%,0.8); 
+        
     }
 
 }

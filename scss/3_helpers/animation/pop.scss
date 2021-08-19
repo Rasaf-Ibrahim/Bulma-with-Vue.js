@@ -1,10 +1,10 @@
  
-.-pop-enter-active {
+.-pop-in {
     animation: pop 0.3s ease-out;
 
 }
 
-.-pop-leave-active {
+.-pop-out {
     animation: pop 0.3s ease-out reverse;
 }
 

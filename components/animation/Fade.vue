@@ -6,7 +6,7 @@
     </button>
 
     <transition name="fade">
-      <div v-show="hide" class="-h-5 bg-blue-a1 text-l2-a1 p-2 mt-4">
+      <div v-show="hide" class="-h-5 bg-blue-l1a1 text-l2-a1 p-2 mt-4">
         Hello, welcome to Bangladesh!
       </div>
     </transition>
@@ -43,7 +43,7 @@ export default {
 }
 
 .fade-leave-active {
-  animation: fade ease 1s reverse;
+  animation: fade ease 3s reverse;
 }
 
 @keyframes fade {

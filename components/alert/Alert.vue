@@ -2,7 +2,7 @@
 
 
 <div v-if="open" 
-     class="bg-red-a1 text-l2-a1 -p
+     class="bg-red-l1a1 text-l2-a1 -p
            max-w-98% mx-auto 
            mb-4 px-6 py-4  
            rounded-xl

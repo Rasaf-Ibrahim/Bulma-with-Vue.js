@@ -111,36 +111,61 @@ module.exports = {
 
         red:{
 
-          a1:'var(--red-alpha-1)',
-          a2:'var(--red-alpha-2)',
-          a3:'var(--red-alpha-3)',
-  
+          l1a1:'var(--red-layer-1-alpha-1)',
+          l1a2:'var(--red-layer-1-alpha-2)',
+          l1a3:'var(--red-layer-1-alpha-3)',
+
+
+          l2a1:'var(--red-layer-2-alpha-1)',
+          l2a2:'var(--red-layer-2-alpha-2)',
+          l2a3:'var(--red-layer-2-alpha-3)',
+
+
          },
 
 
          green:{
 
-          a1:'var(--green-alpha-1)',
-          a2:'var(--green-alpha-2)',
-          a3:'var(--green-alpha-3)',
-  
-         },
-        
-        blue:{
+          l1a1:'var(--green-layer-1-alpha-1)',
+          l1a2:'var(--green-layer-1-alpha-2)',
+          l1a3:'var(--green-layer-1-alpha-3)',
 
-         a1:'var(--blue-alpha-1)',
-         a2:'var(--blue-alpha-2)',
-         a3:'var(--blue-alpha-3)',
- 
-        },
+
+          l2a1:'var(--green-layer-2-alpha-1)',
+          l2a2:'var(--green-layer-2-alpha-2)',
+          l2a3:'var(--green-layer-2-alpha-3)',
+
+
+         },
+
+        
+         blue:{
+
+          l1a1:'var(--blue-layer-1-alpha-1)',
+          l1a2:'var(--blue-layer-1-alpha-2)',
+          l1a3:'var(--blue-layer-1-alpha-3)',
+
+
+          l2a1:'var(--blue-layer-2-alpha-1)',
+          l2a2:'var(--blue-layer-2-alpha-2)',
+          l2a3:'var(--blue-layer-2-alpha-3)',
+
+         },
+
 
         yellow:{
 
-          a1:'var(--yellow-alpha-1)',
-          a2:'var(--yellow-alpha-2)',
-          a3:'var(--yellow-alpha-3)',
+            l1a1:'var(--yellow-layer-1-alpha-1)',
+            l1a2:'var(--yellow-layer-1-alpha-2)',
+            l1a3:'var(--yellow-layer-1-alpha-3)',
   
-         },
+  
+            l2a1:'var(--yellow-layer-2-alpha-1)',
+            l2a2:'var(--yellow-layer-2-alpha-2)',
+            l2a3:'var(--yellow-layer-2-alpha-3)',
+  
+  
+           },
 
 
 
@@ -210,37 +235,60 @@ module.exports = {
 
         red:{
 
-          a1:'var(--red-alpha-1)',
-          a2:'var(--red-alpha-2)',
-          a3:'var(--red-alpha-3)',
-  
+          l1a1:'var(--red-layer-1-alpha-1)',
+          l1a2:'var(--red-layer-1-alpha-2)',
+          l1a3:'var(--red-layer-1-alpha-3)',
+
+
+          l2a1:'var(--red-layer-2-alpha-1)',
+          l2a2:'var(--red-layer-2-alpha-2)',
+          l2a3:'var(--red-layer-2-alpha-3)',
+
+
          },
 
 
          green:{
 
-          a1:'var(--green-alpha-1)',
-          a2:'var(--green-alpha-2)',
-          a3:'var(--green-alpha-3)',
-  
+          l1a1:'var(--green-layer-1-alpha-1)',
+          l1a2:'var(--green-layer-1-alpha-2)',
+          l1a3:'var(--green-layer-1-alpha-3)',
+
+
+          l2a1:'var(--green-layer-2-alpha-1)',
+          l2a2:'var(--green-layer-2-alpha-2)',
+          l2a3:'var(--green-layer-2-alpha-3)',
+
+
          },
         
-        blue:{
+         blue:{
 
-         a1:'var(--blue-alpha-1)',
-         a2:'var(--blue-alpha-2)',
-         a3:'var(--blue-alpha-3)',
- 
-        },
+          l1a1:'var(--blue-layer-1-alpha-1)',
+          l1a2:'var(--blue-layer-1-alpha-2)',
+          l1a3:'var(--blue-layer-1-alpha-3)',
 
-        yellow:{
 
-          a1:'var(--yellow-alpha-1)',
-          a2:'var(--yellow-alpha-2)',
-          a3:'var(--yellow-alpha-3)',
-  
+          l2a1:'var(--blue-layer-2-alpha-1)',
+          l2a2:'var(--blue-layer-2-alpha-2)',
+          l2a3:'var(--blue-layer-2-alpha-3)',
+
+
          },
 
+         yellow:{
+
+          l1a1:'var(--yellow-layer-1-alpha-1)',
+          l1a2:'var(--yellow-layer-1-alpha-2)',
+          l1a3:'var(--yellow-layer-1-alpha-3)',
+
+
+          l2a1:'var(--yellow-layer-2-alpha-1)',
+          l2a2:'var(--yellow-layer-2-alpha-2)',
+          l2a3:'var(--yellow-layer-2-alpha-3)',
+
+
+         },
 
          
         //  surface color  (Just for SVG)
@@ -270,6 +318,26 @@ module.exports = {
      /* **brandColor** */
 
       borderColor:{
+
+   
+        // surface color
+
+        s:{
+
+          t1a1: 'var(--surface-type-1-alpha-1)',
+          t1a2: 'var(--surface-type-1-alpha-2)',
+          t1a3: 'var(--surface-type-1-alpha-3)',
+          t1a4: 'var(--surface-type-1-alpha-4)',
+          t1a5: 'var(--surface-type-1-alpha-5)',
+          
+          
+          t2a1: 'var(--surface-type-2-alpha-1)',
+          t2a2: 'var(--surface-type-2-alpha-2)',
+          t2a3: 'var(--surface-type-2-alpha-3)',
+          t2a4: 'var(--surface-type-2-alpha-4)',
+          t2a5: 'var(--surface-type-2-alpha-5)',
+
+      },
 
 
 
@@ -313,42 +381,64 @@ module.exports = {
 
           red:{
 
-            a1:'var(--red-alpha-1)',
-            a2:'var(--red-alpha-2)',
-            a3:'var(--red-alpha-3)',
-            t1: 'var(--brand-type-1-alpha-1)',
-    
+            l1a1:'var(--red-layer-1-alpha-1)',
+            l1a2:'var(--red-layer-1-alpha-2)',
+            l1a3:'var(--red-layer-1-alpha-3)',
+  
+  
+            l2a1:'var(--red-layer-2-alpha-1)',
+            l2a2:'var(--red-layer-2-alpha-2)',
+            l2a3:'var(--red-layer-2-alpha-3)',
+  
+  
            },
   
   
            green:{
+
+            l1a1:'var(--green-layer-1-alpha-1)',
+            l1a2:'var(--green-layer-1-alpha-2)',
+            l1a3:'var(--green-layer-1-alpha-3)',
   
-            a1:'var(--green-alpha-1)',
-            a2:'var(--green-alpha-2)',
-            a3:'var(--green-alpha-3)',
-    
+  
+            l2a1:'var(--green-layer-2-alpha-1)',
+            l2a2:'var(--green-layer-2-alpha-2)',
+            l2a3:'var(--green-layer-2-alpha-3)',
+  
+  
            },
           
-          blue:{
+           blue:{
+
+            l1a1:'var(--blue-layer-1-alpha-1)',
+            l1a2:'var(--blue-layer-1-alpha-2)',
+            l1a3:'var(--blue-layer-1-alpha-3)',
   
-           a1:'var(--blue-alpha-1)',
-           a2:'var(--blue-alpha-2)',
-           a3:'var(--blue-alpha-3)',
-   
-          },
   
-          yellow:{
+            l2a1:'var(--blue-layer-2-alpha-1)',
+            l2a2:'var(--blue-layer-2-alpha-2)',
+            l2a3:'var(--blue-layer-2-alpha-3)',
   
-            a1:'var(--yellow-alpha-1)',
-            a2:'var(--yellow-alpha-2)',
-            a3:'var(--yellow-alpha-3)',
-    
+  
            },
+
   
+           yellow:{
+
+            l1a1:'var(--yellow-layer-1-alpha-1)',
+            l1a2:'var(--yellow-layer-1-alpha-2)',
+            l1a3:'var(--yellow-layer-1-alpha-3)',
+  
+  
+            l2a1:'var(--yellow-layer-2-alpha-1)',
+            l2a2:'var(--yellow-layer-2-alpha-2)',
+            l2a3:'var(--yellow-layer-2-alpha-3)',
+  
+  
+           },
 
       
-     
-
+    
 
       },
 
