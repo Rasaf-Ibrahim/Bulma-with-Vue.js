@@ -1,4 +1,4 @@
- 
+
 .-fade-in {
     animation: fade ease 3s;
   }
@@ -6,7 +6,8 @@
 .-fade-out {
   animation: fade ease 1s reverse;
 }
-    
+
+
     
     @keyframes fade{
       0% {
@@ -16,3 +17,6 @@
         opacity:1;
       }
     }
+
+
+  

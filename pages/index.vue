@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="-fade-in-up">
  
         <!-- Illustratoin -->
         <div class="bg-s-t1a2 p-8 my-4 flex justify-center">

@@ -7,9 +7,6 @@
 @import './2_components/_components.scss';
 
 
-/* helpers */
-@import './3_helpers/_helpers.scss';
-
 
 // /* old */
 // @import './4_old/_old.scss';
@@ -32,6 +29,9 @@
 
 @import './1_theme/theme.scss';
 
+
+/* helpers */
+@import './3_helpers/_helpers.scss';
 
 
 

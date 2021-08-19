@@ -119,6 +119,15 @@
       >
         Form
       </NuxtLink>
+
+         <NuxtLink
+        :to="{ name: 'counter' }"
+        class="-btn -btn-sm -btn-color-t1l1 -btn-scale-down m-2"
+      >
+        Counter
+      </NuxtLink>
+
+
     </div>
   </div>
 </template>
