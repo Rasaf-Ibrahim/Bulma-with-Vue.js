@@ -17,13 +17,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
     ],
-
-   
-    script: [
-      {  src: 'https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js', defer: true }
-    ]
   
-
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -49,13 +43,8 @@ export default {
 
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  
   modules: [
-    '@nuxt/content'
   ],
-  content: {
-    // Options
-  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

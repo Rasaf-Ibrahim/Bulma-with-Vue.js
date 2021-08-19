@@ -80,15 +80,6 @@ import SVG_home_2 from "../components/Illustration/SVG_home_2.vue";
 export default {
   components: {SVG_home_1,SVG_home_2},
 
-
-// Netlify CMS
-
-  head() {
-    return {
-      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
-    };
-  },
-
 };
 </script>
 
