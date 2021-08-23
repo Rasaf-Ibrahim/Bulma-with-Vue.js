@@ -38,7 +38,7 @@ export default {
   ],
 
   tailwindcss: {
-    cssPath: '~/scss/index.scss'
+    cssPath: '~/tailwind/index.scss'
   },
 
 
